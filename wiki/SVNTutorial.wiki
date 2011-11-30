@@ -94,7 +94,3 @@ The `dry-run` allows you to see what would be rolled-back without actually doing
 {{{
 svn diff -r 56:55 https://website-clustering.googlecode.com/svn/trunk/
 }}}
-
-= More Info =
-
-You can also see [http://aymanh.com/subversion-a-quick-tutorial Aiman Hanna's tutorial] if you need more info.
