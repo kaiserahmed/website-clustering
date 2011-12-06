@@ -14,6 +14,8 @@ def main(argv=None):
     tokeniser = tk.Tokeniser()
     indexer = wi.WebIndexer()
     indexer.spimi(index, tokeniser=tokeniser)
+    print indexer.urls
+    indexer.display(0)
 
 if __name__ == "__main__":
     sys.exit(main())

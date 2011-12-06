@@ -8,7 +8,7 @@ Marc-Andre Faucher (9614729)
 ma.faucher@gmail.com
 """
 
-import re, csv, os.path
+import re, csv, hashlib, os.path
 import Tokeniser as tk
 import InvertedIndex as ii
 
@@ -47,7 +47,6 @@ def allIndex(folder):
     for root, dirs, files in os.walk(folder):
         for file in files:
             if file == "index.html":
-                print (root+"/"+file)
                 result.append(root+"/"+file)
     return result
 
@@ -81,10 +80,12 @@ def load(loadfile, docList):
         f.close()
 
 class WebIndexer:
+    fileList = []       # List of files to index
+    checksums = []      # List of checksum to check for duplicates
+    urls = {}           # Maps docId to urls
+    docL = {}           # Maps docId to doc length
     block = 0           # Block size in number of files for SPIMI
-    fileList = []         # List of files to index
-    docId = 0
-    docL = {}           # List of doc ID and length
+    docId = 0           # Counter to keep track of current doc ID
 
     def __init__(self, folder='concordia.ca', blockSize=1):
         """ ReuterIndexer
@@ -96,13 +97,22 @@ class WebIndexer:
         else:
             self.block = 1
         self.fileList = allIndex(folder)
-        print self.fileList
 
     def avgL(self):
         l = 0
         for docId in self.docL:
             l += self.docL[docId]
         return float(l) / float( len(self.docL) )
+
+    def uniqueChecksum(self, string):
+        string = string.encode("utf8")
+        newChecksum = hashlib.md5(string).digest()
+        for checksum in self.checksums:
+            if newChecksum == checksum:
+                print "Ignoring duplicate"
+                return False
+        self.checksums.append(newChecksum)
+        return True
 
     def parse(self, doc, index, tokeniser):
         """ Parse a single file and add to InvertedIndex """
@@ -114,17 +124,21 @@ class WebIndexer:
             
             # Decode and filter files without body
             txt = f.read().decode(encoding)
-            body = regexBody.findall(txt)
-            if not body:
+            result = regexBody.findall(txt)
+            if not result:
+                return 0
+            body = result[0]
+            
+            # Check for duplicates
+            if not self.uniqueChecksum(body):
                 return 0
 
             # Remove scripts, strip tags and convert special characters
-            article = body[0]
-            article = regexScript.sub('', article)
-            article = strip_html(article)
+            body = regexScript.sub('', body)
+            body = strip_html(body)
 
             # Tokenise
-            terms = tokeniser.tokenise(article)
+            terms = tokeniser.tokenise(body)
 
             # Record length of document
             self.docL
@@ -133,6 +147,7 @@ class WebIndexer:
             # Add terms to inverted index
             for term in terms:
                 index[term] = self.docId
+            self.urls[self.docId] = doc
             self.docId += 1
         finally:
             f.close()
@@ -154,23 +169,22 @@ class WebIndexer:
         ii.mergeFile( "index/fullindex.csv", [ "index/index"+str(n)+".csv" for n in range(numberofblocks) ] )
         save('index/doclength.csv', self.docL)
 
-    # TODO: change for Website
-    def display(self, docId, folder='reuters21578'):
+    def display(self, docId):
         try:
-            f = open(folder+"/reut2-%(number)03d.sgm" %{ "number" : (docId-1)//1000 })
-            text = f.read()
-        
-            regexText  = re.compile(r'(?<=NEWID="'+str(docId)+').*?(?=</TEXT>)', flags=re.DOTALL)
-            regexTitle = re.compile(r'(?<=<TITLE>).*?(?=</TITLE>)')
-            regexDate  = re.compile(r'(?<=<DATELINE>).*?(?=</DATELINE>)')
-            regexBody  = re.compile(r'(?<=<BODY>).*?(?=&#3;)', flags=re.DOTALL)
+            f = open(self.urls[docId], 'rb')
+            
+            regexBody = re.compile(r'(?<=<body)(?:.*?>)(.*)(?=</body>)', flags=(re.DOTALL|re.IGNORECASE))
+            regexScript = re.compile(r'<script.*?<\/script>', flags=re.DOTALL)
+            
+            # Decode and find body
+            txt = f.read().decode(encoding)
+            body = regexBody.findall(txt)[0]
+            
+            # Remove scripts, strip tags and convert special characters
+            body = regexScript.sub('', body)
+            body = strip_html(body)
 
-            text = regexText.findall(text)[0]
-            title=regexTitle.findall(text)[0]
-            date = regexDate.findall(text)[0]
-            body = regexBody.findall(text)[0]
-
-            print title
-            print date.lstrip(), body
+            print self.urls[docId]
+            print body
         finally:
             f.close()
