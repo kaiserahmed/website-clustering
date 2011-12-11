@@ -4,7 +4,7 @@ from numpy  import * #http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
 import InvertedIndex as ii
 
 ###
-# MATRIX CONSTRUCTION ( [matrix, number of terms] )
+# MATRIX CONSTRUCTION return( [matrix, number of terms] )
 ###
 def buildVectors(numberOfDocuments=22000):
     index       = ii.InvertedIndex()
@@ -25,7 +25,7 @@ def buildVectors(numberOfDocuments=22000):
 
 
 ###
-# VECTOR LENGTH ( int )
+# VECTOR LENGTH return( int )
 ###
 def length(index, vectorID):
       print "Finding length of document id:", vectorID
@@ -40,7 +40,7 @@ def length(index, vectorID):
 
 
 ###
-# CENTROID LENGTH (int)
+# CENTROID LENGTH return(int)
 ###
 def centroidLength(centroid):
       print "Finding length of centroid"
@@ -54,7 +54,7 @@ def centroidLength(centroid):
       return length
 
 ###
-# FIND CENTROID ( array )
+# FIND CENTROID return( array )
 ###
 def findCentroid(index, listOfIDs, numberOfTerms):
       
