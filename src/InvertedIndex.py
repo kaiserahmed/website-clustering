@@ -9,11 +9,6 @@ key, and a list of 2-value lists as the value:
 Overrides the __setitem__ method to manage the postings list using regular inserts.
 
 Includes functionality to save to, and load from, a csv file.
-
-2011-11-10: Added term frequency count
-
-Marc-Andre Faucher (9614729)
-ma.faucher@gmail.com
 """
 
 import csv

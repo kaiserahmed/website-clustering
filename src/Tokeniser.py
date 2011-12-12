@@ -14,9 +14,6 @@ Tokeniser.tokenise(string) parses string and returns a list of tokens.
 Class structure inspired by:
     http://blog.josephwilk.net/projects/
       building-a-vector-space-search-engine-in-python.html
-
-Marc-Andre Faucher (9614729)
-ma.faucher@gmail.com
 """
 
 import re

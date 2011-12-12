@@ -1,11 +1,8 @@
 #!/usr/bin/env python
 
-"""ReuterIndexer.py
+"""WebIndexer.py
 
-Parses and indexes a folder of *.sgm files using SPIMI algorithm
-
-Marc-Andre Faucher (9614729)
-ma.faucher@gmail.com
+Parses and indexes a directory of crawled web pages using SPIMI
 """
 
 import re, csv, hashlib, os.path
@@ -13,6 +10,8 @@ import Tokeniser as tk
 import InvertedIndex as ii
 
 encoding = "iso-8859-1"
+wTitle   = 3
+wHeader  = 2
 
 # From effbot.org/zone/re-sub.htm
 def strip_html(text):
@@ -119,34 +118,57 @@ class WebIndexer:
         try:
             f = open(doc, 'rb')
             
-            regexBody = re.compile(r'(?<=<body)(?:.*?>)(.*)(?=</body>)', flags=(re.DOTALL|re.IGNORECASE))
+            regexTitle  = re.compile(r'(?<=<title>)(.*)(?=<\/title>)', flags=(re.DOTALL|re.IGNORECASE))
+            regexHeader = re.compile(r'(?<=<h)(?:.*?>)(.*?)(?=<\/h)(?:.*?>)', flags=(re.DOTALL|re.IGNORECASE))
+            regexBody   = re.compile(r'(?<=<body)(?:.*?>)(.*)(?=<\/body>)', flags=(re.DOTALL|re.IGNORECASE))
             regexScript = re.compile(r'<script.*?<\/script>', flags=re.DOTALL)
             
-            # Decode and filter files without body
             txt = f.read().decode(encoding)
-            result = regexBody.findall(txt)
-            if not result:
+
+            # Filter files without body
+            results = regexBody.findall(txt)
+            if not results:
+                print "empty file"
                 return 0
-            body = result[0]
+            body = results[0]
             
             # Check for duplicates
             if not self.uniqueChecksum(body):
                 return 0
+            
+            self.docL[self.docId] = 0
 
-            # Remove scripts, strip tags and convert special characters
+            # Capture title
+            title = ""
+            results = regexTitle.findall(txt)
+            if results:
+                title = results[0]
+            title = strip_html(title)
+            terms = tokeniser.tokenise(title)
+            self.docL[self.docId] += len(terms) * wTitle
+            for i in range(wTitle):
+                for term in terms:
+                    index[term] = self.docId
+
+            # Capture headers
+            results = regexHeader.findall(txt)
+            for result in results:
+                header = strip_html(result)
+                terms = tokeniser.tokenise(header)
+                self.docL[self.docId] += len(terms) * wHeader
+                for i in range(wHeader):
+                    for term in terms:
+                        index[term] = self.docId
+
+            # Capture body
             body = regexScript.sub('', body)
+            body = regexHeader.sub('', body)
             body = strip_html(body)
-
-            # Tokenise
             terms = tokeniser.tokenise(body)
-
-            # Record length of document
-            self.docL
-            self.docL[self.docId] = len(terms)
-
-            # Add terms to inverted index
+            self.docL[self.docId] += len(terms)
             for term in terms:
                 index[term] = self.docId
+
             self.urls[self.docId] = doc
             self.docId += 1
         finally:
@@ -178,7 +200,10 @@ class WebIndexer:
             
             # Decode and find body
             txt = f.read().decode(encoding)
-            body = regexBody.findall(txt)[0]
+            body = ""
+            result = regexBody.findall(txt)
+            if result:
+                body = result[0]
             
             # Remove scripts, strip tags and convert special characters
             body = regexScript.sub('', body)
