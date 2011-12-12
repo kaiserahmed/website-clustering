@@ -11,15 +11,24 @@ class Usage(Exception):
         self.msg = msg
 
 def main(argv=None):
+    """# Create Index
     index = ii.InvertedIndex()
-    tokeniser = tk.Tokeniser()
     indexer = wi.WebIndexer()
-    indexer.spimi(index, tokeniser=tokeniser)
-    print indexer.urls
-    indexer.display(0)
-
-    matrix = vs.VectorSpace(index, indexer)
-
+    tokeniser = tk.Tokeniser()
+    indexer.spimi(index, tokeniser)
+    """
+    # Load Index
+    index = ii.InvertedIndex()
+    ii.load("index/fullindex.csv", index)
+    indexer = wi.WebIndexer()
+    wi.load("index/doclength.csv", indexer.docL)
+    
+    vSpace = vs.VectorSpace(index, indexer)
+    vSpace.buildVectors()
+    for i in range(vSpace.numberOfTerms):
+        print 0, vSpace.vectorIndex[0, i]
+        print 1, vSpace.vectorIndex[1, i]
+        print 'c', vSpace.centroid([0,1])[i]
 
 if __name__ == "__main__":
     sys.exit(main())

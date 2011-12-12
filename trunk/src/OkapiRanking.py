@@ -4,9 +4,6 @@
 
 Given an inverted index and an indexer, will perform ranked retrieval based on
 a query by computing the Okapi BM25 ranking of the list of documents indexed.
-
-Marc-Andre Faucher (9614729)
-ma.faucher@gmail.com
 """
 
 import csv, math
