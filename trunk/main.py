@@ -31,7 +31,7 @@ def main(argv=None):
     # Sample: Simple K-means
     k = 3
     # w: List of K clusters [ [docId, docId, ...], [docId, docId, ...], [docId, docId, ...] ]
-    # u: List of K centroids [ wi.centroid(w[0]), ..., wi.centroid(w[k-1]) ]
+    # u: List of K centroids [ vSpace.centroid(w[0]), ..., vSpace.centroid(w[k-1]) ]
     # rss: total RSS value for this clustering scheme
     w, u, rss = vSpace.kMeans(k)
 
