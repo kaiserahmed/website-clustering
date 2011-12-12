@@ -51,33 +51,6 @@ def allIndex(folder):
 
 # I/O
 
-def save(savefile, docList):
-    """ Saves the document length information as a CSV
-    Inspired by: http://www.doughellmann.com/PyMOTW/csv/#using-field-names
-    """
-    try:
-        f = open(savefile, 'wb')
-        fields = ('docId', 'docLength')
-        writer = csv.DictWriter(f, fieldnames=fields)
-        writer.writerow(dict((n,n) for n in fields))
-        for key in docList:
-            writer.writerow( { fields[0]:key, fields[1]:docList[key] } )
-    finally:
-        f.close()
-
-def load(loadfile, docList):
-    """ loads the document length information from a CSV
-    Inspired by: http://www.doughellmann.com/PyMOTW/csv/#using-field-names
-    """
-    docList.clear()
-    try:
-        f = open(loadfile, 'rb')
-        reader = csv.DictReader(f)
-        for row in reader:
-            docList[int(row['docId'])] = int(row['docLength'])
-    finally:
-        f.close()
-
 class WebIndexer:
     fileList = []       # List of files to index
     checksums = []      # List of checksum to check for duplicates
@@ -96,6 +69,48 @@ class WebIndexer:
         else:
             self.block = 1
         self.fileList = allIndex(folder)
+
+    def save(self):
+        """ Saves the document length information as a CSV
+        Inspired by: http://www.doughellmann.com/PyMOTW/csv/#using-field-names
+        """
+        try:
+            # docL:
+            f = open("index/doclength.csv", 'wb')
+            fields = ('docId', 'docLength')
+            writer = csv.DictWriter(f, fieldnames=fields)
+            writer.writerow(dict((n,n) for n in fields))
+            for key in self.docL:
+                writer.writerow( { fields[0]:key, fields[1]:self.docL[key] } )
+            # urls:
+            f = open("index/urls.csv", 'wb')
+            fields = ('docId', 'url')
+            writer = csv.DictWriter(f, fieldnames=fields)
+            writer.writerow(dict((n,n) for n in fields))
+            for key in self.urls:
+                writer.writerow( { fields[0]:key, fields[1]:self.urls[key] } )
+        finally:
+            f.close()
+
+    def load(self):
+        """ loads the document length information from a CSV
+        Inspired by: http://www.doughellmann.com/PyMOTW/csv/#using-field-names
+        """
+        self.docL.clear()
+        self.urls.clear()
+        try:
+            # docL:
+            f = open("index/doclength.csv", 'rb')
+            reader = csv.DictReader(f)
+            for row in reader:
+                self.docL[int(row['docId'])] = int(row['docLength'])
+            # urls:
+            f = open("index/urls.csv", 'rb')
+            reader = csv.DictReader(f)
+            for row in reader:
+                self.urls[int(row['docId'])] = row['url']
+        finally:
+            f.close()
 
     def avgL(self):
         l = 0
@@ -189,7 +204,7 @@ class WebIndexer:
             ii.save("index/index"+str(n)+".csv", index)
         print "Merging... "
         ii.mergeFile( "index/fullindex.csv", [ "index/index"+str(n)+".csv" for n in range(numberofblocks) ] )
-        save('index/doclength.csv', self.docL)
+        self.save()
 
     def display(self, docId):
         try:

@@ -7,6 +7,17 @@ import WebIndexer as wi
 
 def vectorLength(v):
     return (sum(v**2.0))**0.5
+    
+def distance(v1, v2):
+    return vectorLength(v1 - v2)
+
+def termCount(terms):
+    termDict = {}
+    for term in terms:
+        if term not in termDict:
+            termDict[term] = 1
+        else:
+            termDict[term] += 1
 
 class VectorSpace:
     index = None
@@ -36,6 +47,18 @@ class VectorSpace:
                 self.vectorIndex[entry[0], pos] = entry[1]*idf
             pos += 1
             
+    def buildQueryVector(self, terms):
+        termDict = termCount(terms)
+        vector = zeros( self.numberOfTerms )
+        if not termDict:
+            return vector
+        pos = 0
+        for term in self.index:
+            if term in termDict:
+                vector[pos] = termDict[term]*self.computeIDF(term)
+            pos += 1
+        return vector
+
     def length(self, vectorID):
         return vectorLength(self.vectorIndex[vectorID])
 
@@ -46,9 +69,76 @@ class VectorSpace:
         c = c / len(listOfIDs)
         return c
 
-    def distance(self, id1, id2):
-        return vectorLength(self.vectorIndex[id1] - self.vectorIndex[id2])
+    def randomSeed(self, k):
+        w = []
+        # Initialize random class lists
+        for i in range(k):
+            w.append([])
+        for docId in self.indexer.docL.keys():
+            w[random.randrange(0,k)].append(docId)
+        return w
 
+    def calculateClassRSS(self, v, c):
+        """v: list of docIds in the class; c: centroid for the class"""
+        rss = 0.0
+        for docId in v:
+            rss += sum( (c - self.vectorIndex[docId])**2.0 )
+        return rss
+
+    def calculateRSS(self, w, u):
+        """w: list of classes; u: list of centroids"""
+        result = 0.0
+        for k in range(len(w)):
+            result += self.calculateClassRSS(w[k], u[k])
+        return result
+
+    def kMeans(self, k):
+        # Initial seed and centroid
+        w = self.randomSeed(k)
+        u = []
+        for i in range(k):
+            u.append(self.centroid(w[i]))
+        thisRSS = self.calculateRSS(w, u)
+        prevRSS = 0
+        while thisRSS != prevRSS:
+            # Set each doc to the class with the nearest centroid
+            for i in range(k):
+                w[i] = []
+            for docId in self.indexer.docL.keys():
+                # distances from current docId to all centroids
+                distances = [ distance(u[i], self.vectorIndex[docId]) for i in range(k) ]
+                j = min(xrange(k), key=distances.__getitem__)
+                w[j].append(docId)
+            # Calculate the new centroids and RSS
+            for i in range(k):
+                u[i] = self.centroid(w[i])
+            prevRSS = thisRSS
+            thisRSS = self.calculateRSS(w, u)
+        return w, u, thisRSS
+
+    def kMeansBestOfN(self, k, n):
+        rss = 0
+        w = u = []
+        for i in range(n):
+            thisW, thisU, thisRSS = self.kMeans(k)
+            if thisRSS < rss or rss == 0:
+                rss = thisRSS
+                w = thisW
+                u = thisU
+        return w, u, rss
+
+    def nearestCluster(self, w, u, vector):
+        distances = [ distance(u[i], vector) for i in range(len(u)) ]
+        j = min(xrange(len(u)), key=distances.__getitem__)
+        return w[j]
+        
+"""
+def kMeansPlot()
+    results = []
+    tries = []
+    for i in range(2, 100)
+        kMeans(i)
+"""
 def main():
     index = ii.InvertedIndex()
     indexer = wi.WebIndexer()
