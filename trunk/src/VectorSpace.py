@@ -11,6 +11,12 @@ def vectorLength(v):
 def distance(v1, v2):
     return vectorLength(v1 - v2)
 
+def cosine(v1, v2):
+    return dot(v1, v2)/(vectorLength(v1)*vectorLength(v2))
+
+def cosineSort(vectorList, queryVector):
+    return sorted(vectorList, key=lambda x: cosine(x, queryVector))
+
 def termCount(terms):
     termDict = {}
     for term in terms:

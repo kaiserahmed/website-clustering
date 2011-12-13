@@ -56,6 +56,18 @@ class InvertedIndex(dict):
         else:
             raise TypeError("InvertedIndex value must be an 'int', or a list")
 
+    def totalFreq(self, term):
+        count = 0
+        for entry in self[term]:
+            count += entry[1]
+        return count
+
+    def frequencies(self):
+        index = {}
+        for term in self:
+            index[term] = self.totalFreq(term)
+        return index
+
     def tf(self, term, docId):
         """ Return the term frequency for a given term and docId """
         if not self[term]:
