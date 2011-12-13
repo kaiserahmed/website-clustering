@@ -5,6 +5,7 @@ import src.InvertedIndex as ii
 import src.Tokeniser as tk
 import src.WebIndexer as wi
 import src.VectorSpace as vs
+import src.SpellingCorrector as sc
 
 class Usage(Exception):
     def __init__(self, msg):
@@ -40,10 +41,16 @@ def main(argv=None):
     n = 10
     w, u, rss = vSpace.kMeansBestOfN(k, n)
 
-    # Sample: Query
+    # Sample: Tokenise input
     tokeniser = tk.Tokeniser()
     userInput = raw_input("> ").strip()
     terms = tokeniser.tokenise(userInput)
+    print terms
+
+    # Sample: Edit distance
+    terms = [sc.correct(term) for term in terms]
+    print terms
+
     queryVector = vSpace.buildQueryVector(terms)
     docList = vSpace.nearestCluster(w, u, queryVector)
 
