@@ -5,6 +5,8 @@ import math, random
 import InvertedIndex as ii
 import WebIndexer as wi
 
+L = 10
+
 def vectorLength(v):
     return (sum(v**2.0))**0.5
     
@@ -12,10 +14,7 @@ def distance(v1, v2):
     return vectorLength(v1 - v2)
 
 def cosine(v1, v2):
-    return dot(v1, v2)/(vectorLength(v1)*vectorLength(v2))
-
-def cosineSort(vectorList, queryVector):
-    return sorted(vectorList, key=lambda x: cosine(x, queryVector))
+    return dot(v1, v2)/(vectorLength(v1)*vectorLength(v2)+1)
 
 def termCount(terms):
     termDict = {}
@@ -24,6 +23,7 @@ def termCount(terms):
             termDict[term] = 1
         else:
             termDict[term] += 1
+    return termDict
 
 class VectorSpace:
     index = None
@@ -56,8 +56,9 @@ class VectorSpace:
     def buildQueryVector(self, terms):
         termDict = termCount(terms)
         vector = zeros( self.numberOfTerms )
-        if not termDict:
-            return vector
+        # Returns empty vector if query is empty
+        #if not termDict:
+        #    return vector
         pos = 0
         for term in self.index:
             if term in termDict:
@@ -137,14 +138,19 @@ class VectorSpace:
         distances = [ distance(u[i], vector) for i in range(len(u)) ]
         j = min(xrange(len(u)), key=distances.__getitem__)
         return w[j]
+    
+    def queryCosine(self, queryVector, docId, closestCluster):
+        print self.vectorIndex[docId]
+        print queryVector
+        if docId in closestCluster:
+            print 2*cosine(queryVector, self.vectorIndex[docId])
+            return 2*cosine(queryVector, self.vectorIndex[docId])
+        print cosine(queryVector, self.vectorIndex[docId])
+        return cosine(queryVector, self.vectorIndex[docId])
+
+    def cosineSort(self, idList, closestCluster, queryVector):
+        return sorted(idList, key=lambda x: self.queryCosine(queryVector, x, closestCluster), reverse=True)
         
-"""
-def kMeansPlot()
-    results = []
-    tries = []
-    for i in range(2, 100)
-        kMeans(i)
-"""
 def main():
     index = ii.InvertedIndex()
     indexer = wi.WebIndexer()

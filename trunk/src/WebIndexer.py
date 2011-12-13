@@ -123,7 +123,6 @@ class WebIndexer:
         newChecksum = hashlib.md5(string).digest()
         for checksum in self.checksums:
             if newChecksum == checksum:
-                print "Ignoring duplicate"
                 return False
         self.checksums.append(newChecksum)
         return True
@@ -143,7 +142,6 @@ class WebIndexer:
             # Filter files without body
             results = regexBody.findall(txt)
             if not results:
-                print "empty file"
                 return 0
             body = results[0]
             
@@ -198,11 +196,9 @@ class WebIndexer:
             numberofblocks = 1
         for n in range( numberofblocks ):
             index.clear()
-            print "Parsing Block " + str(n) + "... "
             for doc in self.fileList[n*self.block: (n * self.block) + self.block]:
                 self.parse(doc, index, tokeniser)
             ii.save("index/index"+str(n)+".csv", index)
-        print "Merging... "
         ii.mergeFile( "index/fullindex.csv", [ "index/index"+str(n)+".csv" for n in range(numberofblocks) ] )
         self.save()
 
