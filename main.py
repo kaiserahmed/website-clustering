@@ -53,28 +53,14 @@ def main(argv=None):
     terms = [sc.correct(term) for term in terms]
     print terms
 
-    # Sample: Query using clusters
-    """
+    # Sample: Query using cosine-cluster
     queryVector = vSpace.buildQueryVector(terms)
-    docList = vSpace.nearestCluster(w, u, queryVector)
-    """
-    # Sample: Query using cosine
-    queryVector = vSpace.buildQueryVector(terms)
-    docList = vs.cosineSort(docList, queryVector)
+    closestCluster = vSpace.nearestCluster(w, u, queryVector)
+    docList = vSpace.cosineSort(range(len(vSpace.vectorIndex)), closestCluster, queryVector)
 
     # Sample: getting a list of URLs from a list of doc IDs
     urlList = [indexer.urls[docId] for docId in docList]
     print urlList
-
-    urlList = [] 
-    for cluster in w:
-        urlList.append([indexer.urls[docId] for docId in cluster])
-    for cluster in urlList:
-        print cluster
-    """
-
-
-
 
 if __name__ == "__main__":
     sys.exit(main())
