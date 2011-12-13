@@ -28,7 +28,7 @@ def main(argv=None):
     # Sample: Generating the vector space
     vSpace = vs.VectorSpace(index, indexer)
     vSpace.buildVectors()
-    
+
     # Sample: Simple K-means
     k = 3
     # w: List of K clusters [ [docId, docId, ...], [docId, docId, ...], [docId, docId, ...] ]
@@ -36,10 +36,12 @@ def main(argv=None):
     # rss: total RSS value for this clustering scheme
     w, u, rss = vSpace.kMeans(k)
 
+    """
     # Sample: K-means with the smallest RSS using N different seeds
-    k = 3
-    n = 10
+    k = 10
+    n = 100
     w, u, rss = vSpace.kMeansBestOfN(k, n)
+    """
 
     # Sample: Tokenise input
     tokeniser = tk.Tokeniser()
@@ -51,13 +53,28 @@ def main(argv=None):
     terms = [sc.correct(term) for term in terms]
     print terms
 
+    # Sample: Query using clusters
+    """
     queryVector = vSpace.buildQueryVector(terms)
     docList = vSpace.nearestCluster(w, u, queryVector)
+    """
+    # Sample: Query using cosine
+    queryVector = vSpace.buildQueryVector(terms)
+    docList = vs.cosineSort(docList, queryVector)
 
     # Sample: getting a list of URLs from a list of doc IDs
     urlList = [indexer.urls[docId] for docId in docList]
-
     print urlList
+
+    urlList = [] 
+    for cluster in w:
+        urlList.append([indexer.urls[docId] for docId in cluster])
+    for cluster in urlList:
+        print cluster
+    """
+
+
+
 
 if __name__ == "__main__":
     sys.exit(main())
