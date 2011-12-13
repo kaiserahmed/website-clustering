@@ -44,7 +44,6 @@ class VectorSpace:
 
     def buildVectors(self):
         # iterate the index and swap 0 to tfidf where applicable
-        #print "swapping 0s for real tfidf..."
         self.vectorIndex = zeros( (self.numberOfDocs, self.numberOfTerms) )
         pos = 0
         for term in self.index: #this gives "ball"
@@ -140,40 +139,9 @@ class VectorSpace:
         return w[j]
     
     def queryCosine(self, queryVector, docId, closestCluster):
-        print self.vectorIndex[docId]
-        print queryVector
         if docId in closestCluster:
-            print 2*cosine(queryVector, self.vectorIndex[docId])
-            return 2*cosine(queryVector, self.vectorIndex[docId])
-        print cosine(queryVector, self.vectorIndex[docId])
+            return 1.2*cosine(queryVector, self.vectorIndex[docId])
         return cosine(queryVector, self.vectorIndex[docId])
 
     def cosineSort(self, idList, closestCluster, queryVector):
         return sorted(idList, key=lambda x: self.queryCosine(queryVector, x, closestCluster), reverse=True)
-        
-def main():
-    index = ii.InvertedIndex()
-    indexer = wi.WebIndexer()
-    ii.load("../index/fullindex.csv", index)
-    vectorSpace = VectorSpace(index, indexer)
-    vectorSpace.buildVectors()
-
-    # Length tests
-    length(vectorIndex, 1)
-    length(vectorIndex, 2)
-    length(index, 3)
-    length(index, 4)
-
-    # Centroid test
-    centroid = findCentroid( index, [1,2,3], numberOfTerms )
-    vectorLength(centroid)
-
-    # Dot product
-    print vdot(index[100], index[5])
-
-    # Distance
-    a1 = array ( [1,2,3,4,5,6,7,8] )
-    a2 = array ( [ 0,1,2,3,4,5,6,7] )
-    print distance(index, 1, 2)
-
-#main()

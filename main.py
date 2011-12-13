@@ -13,7 +13,7 @@ class Usage(Exception):
 
 def main(argv=None):
     # Sample: Indexing the collection
-    """
+    
     index = ii.InvertedIndex()
     indexer = wi.WebIndexer()
     tokeniser = tk.Tokeniser()
@@ -24,25 +24,25 @@ def main(argv=None):
     ii.load("index/fullindex.csv", index)
     indexer = wi.WebIndexer()
     indexer.load()
-    
+    """
     # Sample: Generating the vector space
     vSpace = vs.VectorSpace(index, indexer)
     vSpace.buildVectors()
-
+    """
     # Sample: Simple K-means
     k = 3
     # w: List of K clusters [ [docId, docId, ...], [docId, docId, ...], [docId, docId, ...] ]
     # u: List of K centroids [ vSpace.centroid(w[0]), ..., vSpace.centroid(w[k-1]) ]
     # rss: total RSS value for this clustering scheme
     w, u, rss = vSpace.kMeans(k)
-
+    """
     """
     # Sample: K-means with the smallest RSS using N different seeds
     k = 10
     n = 100
     w, u, rss = vSpace.kMeansBestOfN(k, n)
     """
-
+    """
     # Sample: Tokenise input
     tokeniser = tk.Tokeniser()
     userInput = raw_input("> ").strip()
@@ -61,31 +61,6 @@ def main(argv=None):
     # Sample: getting a list of URLs from a list of doc IDs
     urlList = [indexer.urls[docId] for docId in docList]
     print urlList
-    
-    numberOfResults = 10
-    userInput = "hello kitty"
-
-    # Sample: Tokenise input
-    terms = tokeniser.tokenise(userInput)
-
-    # Sample: Edit distance
-    terms = [sc.correct(term) for term in terms]
-
-    # Sample: Query using cosine-cluster
-    queryVector = vSpace.buildQueryVector(terms)
-    closestCluster = vSpace.nearestCluster(w, u, queryVector)
-    docList = vSpace.cosineSort(range(len(vSpace.vectorIndex)), closestCluster, queryVector)[:numberOfResults]
-
-    urlList = [indexer.urls[docId] for docId in docList]
-    output = ', \n\t'.join(url for url in urlList)
-
-    print """
-    {
-    \t"""
-    print output
-    print """
-    }
     """
-
 if __name__ == "__main__":
     sys.exit(main())

@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import sys, os, csv
+import sys, os, pickle
 import src.InvertedIndex as ii
 import src.WebIndexer as wi
 import src.VectorSpace as vs
@@ -20,20 +20,24 @@ def main(argv=None):
 
     minK = 2
     maxK = 10
-    n = 1
+    n = 2
 
     results = []
-    if not os.path.exists("index/kmeans.csv"):
+    if not os.path.exists("index/kmeans"):
         for k in range(minK, maxK+1):
             print k
-            w, u, rss = vSpace.kMeansBestOfN(k, n)
+            w, u, rss = vSpace.kMeansBestOfN(k, n*k)
             results.append(rss)
-        w=csv.writer(file(r'index/kmeans.csv','wb'))
-        w.writerows(results)
+        pickle.dump(results, open("index/kmeans", "wb"))
     else:
-        reader = csv.reader(open("index/kmeans.csv", "rb"))
-        for row in reader:
-            print row[0]
+        results = pickle.load(open("index/kmeans", "rb"))
+    
+    print '{'
+    for i in range(minK, maxK+1):
+        sys.stdout.write('\t"'+str(i)+'" : '+str(results[i-minK]))
+        if i != (maxK):
+            print ','
+    print '\n}' 
 
 if __name__ == "__main__":
     sys.exit(main())
