@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+
 class Usage(Exception):
     def __init__(self, msg):
         self.msg = msg
@@ -19,16 +20,20 @@ def main(argv=None):
     closestCluster = vSpace.nearestCluster(w, u, queryVector)
     docList = vSpace.cosineSort(range(len(vSpace.vectorIndex)), closestCluster, queryVector)[:numberOfResults]
 
-    urlList = [indexer.urls[docId] for docId in docList]
-    output = ', \n\t'.join(url for url in urlList)
 
-    print """
-    {
-    \t"""
-    print output
-    print """
-    }
-    """
+
+import sys
+
+    print '{\n'
+    for i in range(len(urlList))
+        sys.stdout.write('\t"'+str(i+1)+'" : "'+urlList[i]+'"')
+        if i != (len(urlList)-1):
+            print ','
+    print '\n}'
+
+
+    sys.stdout.write('{\n\t"' + output + '"\n}')
+    if 
 
 if __name__ == "__main__":
     sys.exit(main())
