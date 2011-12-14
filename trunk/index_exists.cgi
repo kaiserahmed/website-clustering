@@ -1,14 +1,20 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
-import os.path
+#import os.path
+import cgi
+import cgitb
+cgitb.enable(display=0, logdir="/var/log/cgi-logs/")  # for troubleshooting
 
-def main():
-    return os.path.exists("index/fullindex.csv") and os.path.exists("index/doclength.csv") and os.path.exists("index/urls.csv")
+print "Content-type: text/html"
+print
 
+doesIt = False #os.path.exists("index/fullindex.csv") and os.path.exists("index/doclength.csv") and os.path.exists("index/urls.csv")
+                                                       
+print """
+<html><head></head><body>
 """
-def main(argv=None):
-
-if __name__ == "__main__":
-    sys.exit(main())
-
-"""
+print doesIt
+print """
+</body>
+</html>
+""" % cgi.escape(doesIt)

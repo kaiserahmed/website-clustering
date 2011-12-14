@@ -1,5 +1,7 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
+import cgi
+import cgitb
 import os.path, sys, getopt, re
 import src.InvertedIndex as ii
 import src.Tokeniser as tk
@@ -7,21 +9,21 @@ import src.WebIndexer as wi
 import src.VectorSpace as vs
 import src.SpellingCorrector as sc
 
-class Usage(Exception):
-    def __init__(self, msg):
-        self.msg = msg
+print "Content-type: text/html"
+print
 
-def main(argv=None):
-    index = ii.InvertedIndex()
-    indexer = wi.WebIndexer()
-    tokeniser = tk.Tokeniser()
-    indexer.spimi(index, tokeniser)
+# form stuff
+# flag1 = form.getValue('flag1', 'False')
 
-    vSpace = vs.VectorSpace(index, indexer)
-    vSpace.buildVectors()
-    
-    k = 3
-    w, u, rss = vSpace.kMeans(k)
+index = ii.InvertedIndex()
+indexer = wi.WebIndexer()
+tokeniser = tk.Tokeniser()
+indexer.spimi(index, tokeniser)
 
-if __name__ == "__main__":
-    sys.exit(main())
+vSpace = vs.VectorSpace(index, indexer)
+vSpace.buildVectors()
+
+k = 3
+w, u, rss = vSpace.kMeans(k)
+
+print pimp
