@@ -57,11 +57,8 @@ def main(argv=None):
 
     # Sample: getting a list of URLs from a list of doc IDs
     urlList = [indexer.urls[docId] for docId in docList]
-
-    count = 1
-    for url in urlList:
-        print count, ":", url
-        count += 1
+    
+    print urlList
 
 if __name__ == "__main__":
     sys.exit(main())
