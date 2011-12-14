@@ -40,8 +40,8 @@ $('#searchForm').submit(function(e){
 		for (prop in data) {
     			if (!data.hasOwnProperty(prop))
         			continue;
-    			
-			list.push("<li><a href='http://" + data[prop] + "'>" + data[prop] + "</a></li>");
+			var goodUrl = data[prop].substring(0, data[prop].length - 10)    			
+			list.push("<li><a href='http://" + goodUrl + "'>http://" + goodUrl + "</a></li>");
 		}
 		
 		$('#results').html("<ol>" + list.join(' ') + "</ol>");
