@@ -26,6 +26,8 @@ if (userInput != ""):
     	vSpace = vs.VectorSpace(index, indexer)
     	vSpace.buildVectors()
 
+	k = 8
+	n = 10
 	w, u, rss = vSpace.kMeansBestOfN(k, n)
 
 	tokeniser = tk.Tokeniser()
