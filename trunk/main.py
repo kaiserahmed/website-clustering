@@ -5,7 +5,7 @@ import src.InvertedIndex as ii
 import src.Tokeniser as tk
 import src.WebIndexer as wi
 import src.VectorSpace as vs
-import src.SpellingCorrector as sc
+#import src.SpellingCorrector as sc
 
 class Usage(Exception):
     def __init__(self, msg):
