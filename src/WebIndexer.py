@@ -59,7 +59,7 @@ class WebIndexer:
     block = 0           # Block size in number of files for SPIMI
     docId = 0           # Counter to keep track of current doc ID
 
-    def __init__(self, folder='concordia.ca', blockSize=1):
+    def __init__(self, folder='encs.concordia.ca', blockSize=1):
         """ ReuterIndexer
         folder:     Folder of *.sgm files to parse
         blockSize:  Specify a block size for SPIMI in number of files

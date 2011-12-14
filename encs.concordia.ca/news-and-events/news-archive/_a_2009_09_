@@ -1,0 +1,1232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><!-- InstanceBegin template="/Templates/insidepage_xml.dwt.php" codeOutsideHTMLIsLocked="true" -->
+
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>News archive for September 2009 - Engineering &amp; Computer Science - Concordia University - Montreal, Quebec, Canada</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="hidden" content="" />
+	<meta name="owner" content="Engineering &amp; Computer Science" />
+	<meta name="author" content="Concordia University" />
+	<meta name="copyright" content="Concordia University" />
+	<meta name="meta_tag_generator" content="" />
+	<meta name="robots" content="all,index" />
+	<meta name="resource-type" content="document" />
+	<meta name="distribution" content="global" />
+	<meta name="classification" content="" />
+	<meta name="rating" content="general" />
+	<meta name="language" content="en-ca" />
+	
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/encs" />
+
+	<link rel="shortcut icon" href="http://globalmk.concordia.ca/favicon.ico" />
+	<link rel="stylesheet" href="http://globalmk.concordia.ca/extmembers/stylesheets/common.php" type="text/css" media="all" charset="UTF-8" />
+	<link rel="stylesheet" href="http://globalmk.concordia.ca/extmembers/stylesheets/announcement_alert.php" type="text/css" media="all" charset="UTF-8" />
+
+<style type="text/css">
+#banner{background-image:url(../../images/banner-5.jpg)!important;}
+</style>
+
+
+	<link rel="stylesheet" href="http://www.encs.concordia.ca/stylesheets/custom.php?secure=&version=1.7.3" type="text/css" media="all" charset="UTF-8" />
+	
+
+	<!--[if lt IE 7]>
+	<link rel="stylesheet" href="../../stylesheets/ie6.css" type="text/css" media="all" charset="UTF-8" />
+	<link rel="stylesheet" href="http://globalmk.concordia.ca/extmembers/stylesheets/ie6.css" type="text/css" media="all" charset="UTF-8" />
+	<![endif]-->
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="../../stylesheets/ie7.css" type="text/css" media="all" charset="UTF-8" />
+	<link rel="stylesheet" href="http://globalmk.concordia.ca/extmembers/stylesheets/ie7.css" type="text/css" media="all" charset="UTF-8" />
+	<![endif]-->
+	<!--[if IE 8]>
+	<link rel="stylesheet" href="../../stylesheets/ie8.css" type="text/css" media="all" charset="UTF-8" />
+	<link rel="stylesheet" href="http://globalmk.concordia.ca/extmembers/stylesheets/ie8.css" type="text/css" media="all" charset="UTF-8" />
+	<![endif]-->
+	<link rel="stylesheet" href="http://www.encs.concordia.ca/stylesheets/m.css" type="text/css" media="all" charset="UTF-8" title="text_m" />
+	<link rel="alternate stylesheet" type="text/css" href="http://www.encs.concordia.ca/stylesheets/l.css" media="all" charset="UTF-8" title="text_l" />
+	<link rel="alternate stylesheet" type="text/css" href="http://www.encs.concordia.ca/stylesheets/xl.css" media="all" charset="UTF-8" title="text_xl" />
+
+
+	<script src="http://globalmk.concordia.ca/extmembers/plugins/conuni/maintrigger.php" type="text/javascript"></script>
+	<script src="http://globalmk.concordia.ca/extmembers/scripts/styleswitcher.php" type="text/javascript" charset="UTF-8"> </script>
+	<script src="http://globalmk.concordia.ca/extmembers/scripts/domeffects.php" type="text/javascript" charset="UTF-8"> </script>
+	
+
+<script type="text/javascript">
+//<![CDATA[
+	window.addEvent('domready', function(){
+		activesearch(); queryclick(); sizebuttons(); styleswitcher(); queryclick_media(); tablelinks(); showbookmarks(); alternateRows();
+		breakawaynav_arrows(); homebutton(); 		
+	});
+	//]]>
+</script>
+
+
+	<script src="http://globalmk.concordia.ca/extmembers/scripts/swfobject.php" type="text/javascript" charset="UTF-8"> </script>
+
+<!-- AZ INDEX SUGGESTIONS-->
+	<script src="http://globalmk.concordia.ca/extmembers/scripts/jquery.php" type="text/javascript"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+		if (!window.opera) {
+		$(document).ready( function() {
+			textsizeactive(); main_trigger();
+						replace_localtools('www.encs.concordia.ca','%2Fnews-and-events%2Fnews-archive%2F%3Fa%3D2009%2F09%2F','News%20archive%20for%20September%202009', '/');
+					});
+	}
+	domainname = "www.encs.concordia.ca";
+//]]>
+</script>
+
+<script type="text/javascript" src="http://www.encs.concordia.ca/modules/jquery/jquery-1.3.2.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function() {
+
+	var past_software_content = $('#collapsable_1').html();
+	
+	if (past_software_content != '' && past_software_content != '&nbsp;')
+	{
+		$('#past_software_controls').html('[<a id="btn_expand">Show</a><a id="btn_collapse" style="display:none;">Hide</a>]');
+		//$('#past_software_controls').html('<a id="btn_expand"></a><a id="btn_collapse" style="display:none;"></a>');
+
+		$('#btn_expand').click(function()
+		{
+			//$('#collapsable_1').slideDown();
+			$('#collapsable_1').show();
+			$('#btn_expand').hide();
+			$('#btn_collapse').show();
+		});
+		
+		$('#btn_collapse').click(function()
+		{
+			//$('#collapsable_1').slideUp();
+			$('#collapsable_1').hide();
+			$('#btn_expand').show();
+			$('#btn_collapse').hide();
+		});
+		
+	}
+
+	$('.researchchair p').hide();
+	
+	$('.researchchair div').click(function() {
+		
+		if($(this).hasClass('open'))
+		{
+			$(this).removeClass('open');
+			$(this).next().slideUp(200);
+		}
+		else
+		{
+			$(this).addClass('open');
+			$(this).next().slideDown(200);
+		}
+	
+	});
+	
+});
+//]]>
+</script>
+
+
+
+</head>
+
+
+
+<body id="body_li_news-archive_2a" class="li_mainmenu_news-and-events_1 li_submenu_news-archive_2 li_submenu_news-archive_3" >
+<!-- Contribute/DW Template System Version 1.7.3 or help contact Rommil Santiago (rommil.santiago@concordia.ca) -->
+<div id="top"></div>
+<div id="globaltools">
+  <div id="globaltools_bg">
+    <div class="globaltools_pagewidth">
+      <h2 class="hide">Accessibility Tools</h2>
+      <ul class="accesstools">
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/09/#maincontent" accesskey="s">Skip to Content</a></li>
+        <li><a href="../../accessibility.php" accesskey="0">Accessibility</a></li>
+        <li id="textsize_li">Text Size: <span id="textsizetools"><a href="http://www.encs.concordia.ca/accessibility.php#textsize_faq">N/A</a></span></li>
+		<li><a href="http://feeds.feedburner.com/encs" class="rssfeed">RSS Feed</a></li>		
+      </ul>  
+	<h3 class="hide">Breadcrumb</h3>	  
+      <ul class="globalbreadcrumb">
+        <li><a href="http://www.concordia.ca" accesskey="h">Concordia Home</a><img src="http://www.encs.concordia.ca/images/common/globaltoolbar_arrow_white.gif" alt=">" class="globaltools_arrow" /></li>
+				
+		<li><a href="../../index.html">Engineering &amp; Computer Science Home</a></li>
+	  </ul>
+	  <div class="clear">&nbsp;</div>
+    </div>
+  </div>
+</div>
+<div id="emergency_alert">&nbsp;</div><div id="page">
+	<div id="banner">
+
+	<a href="../../index.html" accesskey="1" title="Return to the Engineering & Computer Science Homepage" id="nameblock"></a>
+
+<h3 class="hide">Search</h3>
+<div id="search" class="search">
+<form id="search_toplevel" action="http://globalmk.concordia.ca/search/searchredirect.php" method="post">
+        <ul class="li_thissite" id="search_option_list">
+ 		  <li><a href="http://www.google.ca/search?hl=en&q=site%3Ahttp://www.encs.concordia.ca/&btnG=Search&meta=" id="li_thissite">ENCS</a></li>
+          <li><a href="http://www.google.ca/search?hl=en&q=site%3Ahttp%3A%2F%2Fwww.concordia.ca&btnG=Search&meta=" id="li_entire">All of Concordia</a></li>
+          <li><a href="http://www.concordia.ca/directory/" id="li_staff">Staff &amp; Faculty Directory</a></li>
+          <!--<li><a href="http://news.concordia.ca/" id="li_news">News</a></li>
+          <li><a href="http://www3.concordia.ca/events/" id="li_events">Events</a> </li>-->
+        </ul>
+        <div id="search_toplevel_tools">
+		  <label for="search_toplevel_query" class="hide">Search Query</label>
+		  <input id="search_toplevel_query" name="query" value="Enter your query here" type="text" accesskey="4" onkeyup="getResult(this.value, 'suggest_hint')" />
+          <input type="submit" value="Search" id="search_toplevel_submit"/>
+          <input id="search_selected" name="li_thissite" value="1" type="hidden" />
+		  <input id="search_sitename" name="sitename" value="Engineering &amp; Computer Science" type="hidden" />
+		  <input id="search_googleraw" name="googleraw" value="cx=006658531582020549846:usdvagrzimk&amp;amp;cof=FORID%3A11&amp;amp;sa=Search" type="hidden" />
+		  <input id="javascript_enabled" name="javascript_enabled" value="0" type="hidden" />
+		  <input id="siteroot" name="siteroot" value="/" type="hidden" />
+		  <input id="siteurl" name="siteurl" value="www.encs.concordia.ca" type="hidden" />
+        </div>
+      </form>
+      <div id="suggest_hint">&nbsp;</div>
+    </div>
+<h2 class="hide">Main Menu</h2>
+<div id="mainmenu">
+<ul class="themainmenu"> <li id="li_mainmenu_future-students_1" >
+<a class="li_mainmenu_future-students_1_a" href="../../future-students/index.html">
+Future students </a>
+</li>
+<li id="li_mainmenu_current-students_1" >
+<a class="li_mainmenu_current-students_1_a" href="../../current-students/index.html">
+Current students </a>
+</li>
+<li id="li_mainmenu_administration-and-governance_1" >
+<a class="li_mainmenu_administration-and-governance_1_a" href="../../administration-and-governance/index.html">
+Administration<br />&amp; governance </a>
+</li>
+<li id="li_mainmenu_research_1" >
+<a class="li_mainmenu_research_1_a" href="../../research/">
+Research </a>
+</li>
+<li id="li_mainmenu_resources_1" >
+<a class="li_mainmenu_resources_1_a" href="../../resources/">
+Resources </a>
+</li>
+<li id="li_mainmenu_policies-and-procedures_1" >
+<a class="li_mainmenu_policies-and-procedures_1_a" href="../../policies-and-procedures/">
+Policies &amp;<br />procedures </a>
+</li>
+<li id="li_mainmenu_news-and-events_1" class="active">
+<a class="li_mainmenu_news-and-events_1_a" href="../">
+News &amp; events </a>
+</li></ul>
+</div>
+
+</div>
+	<h2 class="hide">News &amp; events</h2>
+<div class="submenu">
+<ul id="ul_news-and-events">
+
+
+
+
+
+<li id="li_submenu_news-archive_2" class="active">
+<a class="li_submenu_news-archive_2_a" href="index.html">
+News Archive </a>
+</li>
+<li id="li_submenu_events_2" >
+<a class="li_submenu_events_2_a" href="http://www.encs.concordia.ca/news-and-events/events/">
+Events </a>
+</li>
+<li id="li_submenu_announcements_2" >
+<a class="li_submenu_announcements_2_a" href="http://www.encs.concordia.ca/news-and-events/announcements/">
+Announcements </a>
+</li>
+<li id="li_submenu_faculty-magazine_2" >
+<a class="li_submenu_faculty-magazine_2_a" href="http://www.encs.concordia.ca/news-and-events/faculty-magazine/">
+Faculty Magazine </a>
+</li>
+<li id="li_submenu_get-connected_2" >
+<a class="li_submenu_get-connected_2_a" href="http://www.encs.concordia.ca/news-and-events/get-connected/">
+Get Connected </a>
+</li></ul>
+</div>
+	<div id="maincontent"  class="topgutter"  >
+		<div id="lh_menu_area">
+			</div>
+		<div class="insidecontent ">
+
+			<p class="breadcrumb"><a href="../../index.html">ENCS Home</a> &gt; <a href="../index.php">News &amp; events</a> &gt; </p>
+		<div id="localtools_wrapper">&nbsp;</div>
+	<h1>News archive for September 2009</h1>
+	<div class="page-title-hline">&nbsp;</div>
+	
+
+
+
+
+
+
+
+
+
+
+<!-- MAIN CONTENT AREA - START -->
+
+
+
+		<div class="floatright">
+			<br class="hide" />
+<!-- InstanceBeginEditable name="sidebar" --><!-- FCKEDITOR_sidebar --><!-- /FCKEDITOR_sidebar -->
+
+	<div class="sidebar_box_1">
+		<h2>Monthly Archives</h2>
+<div class="archive-monthly archive">
+    
+        
+                                <div class="archive-content">
+                                    <ul>
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_12_">December 2011</a> (3)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_11_">November 2011</a> (11)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_10_">October 2011</a> (7)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_09_">September 2011</a> (6)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_08_">August 2011</a> (3)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_07_">July 2011</a> (2)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_06_">June 2011</a> (6)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_05_">May 2011</a> (8)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_04_">April 2011</a> (10)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_03_">March 2011</a> (10)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_02_">February 2011</a> (6)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_01_">January 2011</a> (10)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2010_12_">December 2010</a> (6)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2010_11_">November 2010</a> (10)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2010_10_">October 2010</a> (11)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2010_09_">September 2010</a> (5)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2010_08_">August 2010</a> (5)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2010_07_">July 2010</a> (5)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2010_06_">June 2010</a> (13)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2010_05_">May 2010</a> (4)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2010_04_">April 2010</a> (8)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2010_03_">March 2010</a> (17)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2010_02_">February 2010</a> (5)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2010_01_">January 2010</a> (5)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2009_12_">December 2009</a> (5)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2009_11_">November 2009</a> (9)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/10/">October 2009</a> (5)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2009_09_">September 2009</a> (8)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/08/">August 2009</a> (3)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/07/">July 2009</a> (3)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/06/">June 2009</a> (6)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/04/">April 2009</a> (1)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/03/">March 2009</a> (2)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+                                    </ul>
+                                </div>
+        
+    
+                            </div>
+
+
+
+
+	</div>
+
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="Sidebar" --><!-- InstanceEndEditable --><br class="hide" />
+			</div>
+
+
+			<div class="contentcolumn">
+				<br class="hide" />
+<!-- InstanceBeginEditable name="maincontent" --><!-- FCKEDITOR_maincontent --><!-- /FCKEDITOR_maincontent -->
+
+
+<div id="entry-38">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2009/09/encss-dr-vatistas-on-telequebec.php">ENCS's Dr. Vatistas on TéléQuébec</a></h2>
+		<div class="entry-meta" title="2009-09-30T16:53:43-05:00">Wednesday Sep 30, 2009
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			On Tuesday, September 22, the work of ENCS's own <b>Dr. Georgios Vatistas</b>, Professor with the Deparment of Mechanical and Industrial Engineering, was featured in an excellent report during an epsiode of the popular TéléQuébec Science series, <i>Le Code Chastenay</i>.<br /><br /><a href="http://newsfeed.encs.concordia.ca/encs_test/vatistas_tq.jpg"><img alt="Dr. Vatistas" src="http://newsfeed.encs.concordia.ca/encs_test/assets_c/2010/01/vatistas_tq-thumb-440x243-54.jpg" class="mt-image-center" style="margin: 0pt auto 20px; text-align: center; display: block;" width="440" height="243" /></a>Written by <b>Dr. Thomas Gervais</b>, the documentary report will give a closer look at the fascinating work of this award-winning scientist, who recently made headlines by proving a 125-year-old Nobel Prize winning theory.<br /><br /><div align="center"><a href="http://video.telequebec.tv/video/1691">WATCH THE VIDEO</a> </div>
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-39">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2009/09/encss-dr-akbari-on-abc-news.php">ENCS's Dr. Akbari on ABC News</a></h2>
+		<div class="entry-meta" title="2009-09-23T17:01:16-05:00">Wednesday Sep 23, 2009
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			On Tuesday, September 22, the work of ENCS's own <b>Dr. Hashem Akbari, Professor</b> with the Deparment of Building, Civil and Industrial Engineering, was featured in an excellent report during the ABC evening news, broadcast in San Francisco.<br /><br /><a href="http://newsfeed.encs.concordia.ca/encs_test/hashemjpg.jpg"><img alt="Hashem Akbari" src="http://newsfeed.encs.concordia.ca/encs_test/assets_c/2010/01/hashemjpg-thumb-440x297-57.jpg" class="mt-image-center" style="margin: 0pt auto 20px; text-align: center; display: block;" width="440" height="297" /></a>Dr. Akbari was in Berkeley along with scientists from around the world who are studying urban island heat and its effects on global climate changes. <br /><br /><div align="center"><a href="http://abclocal.go.com/kgo/story?section=resources/lifestyle_community/green&id=7025859">WATCH THE VIDEO</a><br /></div><div><br /></div>
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-36">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2009/09/ciise-researcher-merits-long-term-funding-from-crc-program.php">CIISE researcher merits long term funding from CRC program</a></h2>
+		<div class="entry-meta" title="2009-09-23T16:37:36-05:00">Wednesday Sep 23, 2009
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			Concordia Institute for Information Systems Engineering's <b>Professor Yong Zeng</b> has seen the quality of his research recognized with further Tier-2 funding of $100,000 each year over a five year period from the Canada Research Chairs (CRC) program.&nbsp; Professor Zeng is reconfirmed as the <a class="zem_slink" href="http://www.chairs.gc.ca/" title="Canada Research Chair" rel="homepage">Canada Research Chair</a> in Design Science. The Honorable Gary Goodyear, Minister of State (Science and Technology), announced the news this morning at the University of Guelph recognizing&nbsp; one hundred and eighty one (181) appointments and renewals of Canada Research Chairs.<br /><br />Professor Yong Zeng's research focuses on establishing a design science that helps develop tools and shorten the development time of new products.&nbsp; Professor Zeng's work develops scientific methods to study the fundamental principles governing the complex area of design activities.&nbsp; His findings can be used in the manufacturing of aerospace, automotive and medical devices and in national defense.&nbsp; Currently, approximately 80 percent of the costs associated with the development of new products can be traced back to decisions made in the product design stage.&nbsp; Professors Zeng's research aims to reduce the significant proportion of product recalls now caused by faulty product design. &nbsp;<br /><br />"This announcement is a solid endorsement of the continued excellence of Concordia University researchers' work," says Concordia's President and Vice-Chancellor, <b>Judith Woodsworth</b>.&nbsp; "Professor Zeng's advances in computer-aided design will help position this country's manufacturers in an increasingly competitive global business environment." 
+
+
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-35">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2009/09/ciadi-student-returns-from-nasa-internship.php">CIADI student returns from NASA internship</a></h2>
+		<div class="entry-meta" title="2009-09-22T16:29:47-05:00">Tuesday Sep 22, 2009
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			<i>by Russ Cooper</i><br /><br />Since she was a little girl, <b>Niloofar Moradi</b> had dreams of working at NASA. If she ever wished for this upon a star, after this summer, she's one step closer to it.<br /><br />"To become an astronaut has always been my dream. I never knew this could happen and there I was. As an intern, yes, but there I was."<br /><br />The fourth-year mechanical engineering student overcame many obstacles to spend six weeks this summer at the NASA Glenn Research Centre in Cleveland, Ohio as part of the <a href="http://ciadi.concordia.ca/">Concordia Institute of Aerospace Design and Innovation</a> (CIADI) Global program.<br /><br /><a href="http://newsfeed.encs.concordia.ca/encs_test/niloofar.jpeg"><img alt="Noloofar Moradi" src="http://newsfeed.encs.concordia.ca/encs_test/assets_c/2010/01/niloofar-thumb-440x329-51.jpeg" class="mt-image-center" style="margin: 0pt auto 20px; text-align: center; display: block;" width="440" height="329" /></a>The program is a chance for ENCS undergrads to work with aerospace companies in various locations and contribute to real industry engineering projects. Students are not graded, but are required to attend progress meetings, give presentations and submit a report at the end of their contract.<br /><br />What started in 2001 with 26 students and six industrial partners has now grown to over 100 students with 26 partners. Over its history, CIADI Global participants have ventured to PWC in Poland, Embraer in Brazil, Airbus Spain, Lufthansa in San Diego, and beyond.<br /><br />In Cleveland, Moradi joined a team running tests to increase the efficiency of a specific type of compressor. She worked to collect data, refine it into understandable segments and provide insight for its application to project goals.<br /><br />As it turns out, the 22-year old Moradi nearly didn't have the chance to do any of those things. Iranian-born and living in Montreal for five years, she only received her Canadian citizenship three days before her departure June 4.<br /><br />Not to be dissuaded by bureaucratic rigmarole, Moradi had never been to the U.S. before this trip. Another hurdle? This would be the first time she'd ever lived away from home.<br /><br />"I went through quite a bit [to have this experience]," she says. "I know it made me a lot stronger."<br /><br />Once she arrived, she states the experience would've been much more difficult if it weren't for her supervisor and mentor NASA Aerospace Engineer Edward Braunscheidel. Along with working professionally side-by-side, Braunscheidel also helped Moradi with day-to-day aspects of life often forgotten by someone who's out of her element for the first time.<br /><br />"He showed me around, he helped me get a cell phone, he helped me with so much," she says. "He is one of the best people I've met in my life."<br /><br />"She was very nice to work with. She was very responsible and receptive to the work. It was a great experience," says Braunscheidel.<br /><br />In hearing about the life of an astronaut first-hand, she's gained perspective about the personal and professional sacrifices one must make to chase that dream. For now, though, Moradi is concentrating on her final year, taking it one small step at a time.<br /><br />"We have an expression in Persian; when you throw an apple in the air, it turns a thousand times before it reaches your hand. I'm going to stop planning and wait for the apple to fall back into my hand before I check what side is up."<br />
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-34">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2009/09/ece-professor-honoured-in-taiwan.php">ECE Professor honoured in Taiwan</a></h2>
+		<div class="entry-meta" title="2009-09-19T16:20:23-05:00">Saturday Sep 19, 2009
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			<b>Dr. M.N.S. Swamy </b>of the Electrical and Computer Engineering Department was recently awarded the title "NCTU Honorary Professor" by the <b>National Chiao Tung University</b>, Taiwan.&nbsp; <br /><br />The award was given at a special ceremony held at Hsinchu, Taiwan, by Dr. Peter Wu, President of the National Chiao Tung University.&nbsp; The NCTU is one of Taiwan's foremost institutions of higher learning.<br /><br />Below: President Dr. Peter Wu presents Dr. Swamy with a Certificate, and Dr. Swamy delivers his acceptance speech.<br /><br /><a href="http://newsfeed.encs.concordia.ca/encs_test/swami1.jpg"><img alt="MNS Swamy" src="http://newsfeed.encs.concordia.ca/encs_test/assets_c/2010/01/swami1-thumb-440x293-46.jpg" class="mt-image-center" style="margin: 0pt auto 20px; text-align: center; display: block;" width="440" height="293" /></a><a href="http://newsfeed.encs.concordia.ca/encs_test/swami2.jpg"><img alt="MNS Swamy" src="http://newsfeed.encs.concordia.ca/encs_test/assets_c/2010/01/swami2-thumb-440x293-48.jpg" class="mt-image-center" style="margin: 0pt auto 20px; text-align: center; display: block;" width="440" height="293" /></a><br /><div><br /></div><div><br /></div><div><br /></div>
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-33">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2009/09/ciise-professor-receives-canada-us-fulbright-award.php">CIISE professor receives Canada-U.S. Fulbright Award</a></h2>
+		<div class="entry-meta" title="2009-09-18T16:18:42-05:00">Friday Sep 18, 2009
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			<b>Amin Hammad</b>, an associate professor in the Concordia Institute for Information Systems Engineering, has been named the Fulbright Visiting Chair in Transborder Studies at <a class="zem_slink" href="http://maps.google.com/maps?ll=33.4211111111,-111.931666667&spn=0.01,0.01&q=33.4211111111,-111.931666667%20%28Arizona%20State%20University%29&t=h" title="Arizona State University" rel="geolocation">Arizona State University</a>.<br /><br />While at Arizona State University, Hammad will be conducting research on collaborative emergency management of international bridges between Canada and the United States.<br /><br />"It is with great pleasure that I congratulate Amin Hammad as he joins the distinguished group of Canada-U.S. Fulbright scholars," said <b>Judith Woodsworth</b>, President and Vice-Chancellor of Concordia. "Hammad's research while at Arizona State University will certainly offer a unique insight into important issues relating to the security of our shared Canada and U.S. border."<br /><br />By engaging our brightest minds in academic exchanges, the Canada-U.S. Fulbright Program seeks to enhance mutual understanding between Canada and the United States. Through its bilateral academic exchanges, outstanding students, scholars and professionals strengthen Canada-U.S. relations by examining a wide range of subjects which are critical to the relationship between the two countries.<br /><br />Operating in over 150 countries worldwide, the Fulbright program has long been regarded as the world's premiere academic exchange.<br />
+
+<div style="margin-top: 10px; height: 15px;" class="zemanta-pixie"><a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/e77df6f7-90cc-4b42-8f39-cd6f137b0cb3/" title="Reblog this post [with Zemanta]"><img style="border: medium none ; float: right;" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=e77df6f7-90cc-4b42-8f39-cd6f137b0cb3" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related pretty-attribution"><script type="text/javascript" src="http://static.zemanta.com/readside/loader.js" defer="defer"></script></span></div>
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-32">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2009/09/letter-from-the-minister-of-the-environment-to-encss-dr-athienitis.php">Letter from the Minister of the Environment to ENCS's Dr. Athienitis</a></h2>
+		<div class="entry-meta" title="2009-09-12T16:15:50-05:00">Saturday Sep 12, 2009
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			Dr. Andreas Athienitis, Professor in the Department of Building, Civil and Environmental Engineering--and Tier 1 Concordia University Research Chair in Solar Energy--recently received a letter from the<b> Honorable Jim Prentice</b>, Canada's Minister of the Environment.<br /><br />The letter thanked Dr. Athienitis for his participation in, and invaluable contributions to, the US-Canada <b>Clean Energy Dialogue Roundtable</b>, which was held in Washington DC on June 29-30, 2009. <br /><br />"Continental action is an important part of Canada's climate change strategy," Mr. Prentice writes, "and will complement Canada's goal of reducing greenhouse gas emissions by 20 percent, from 2006 levels, by 2020. The Dialogue is a key element of this continental action. It will help advance clean energy solutions that will further support our commitment to ensure that 20 percent of Canadian electricity comes from non-emitting sources by 2020."<br /><br />Canadian and US officials will now prepare a <b>Clean Energy Dialogue Action Plan</b>, which will then be presented to President Obama and Prime Minister Harper for their consideration.&nbsp; Dr. Athienitis will likely continue to provide his expertise and guidance on the implementation of this Action Plan over the coming months. <br /><br />
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-185">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2009/09/change-in-printing-policy.php">Change in Printing Policy</a></h2>
+		<div class="entry-meta" title="2009-09-01T12:24:38-05:00">Tuesday Sep  1, 2009
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			Dear Engineering and Computer Science Students,<br /><br />As you're probably aware, the global financial crisis has had an impact on many different sectors: universities haven't been immune to this. ENCS has long been proud of that fact that it was the only faculty at Concordia that let its students print their documents for free. Unfortunately, even "free" things cost money: things like toner cartridges, paper, and staff time have cost us a lot over the years. So, it is with a great reluctance, that we are ending our program of free printing for ENCS students.<br /><br />But don't worry! Printing your documents still won't break the bank. From September 1 on, you will be able to print at a very reasonable cost of 6 cents per black-and-white page. You can pay for your printing by buying a special card at Printing Services, located in the library building.&nbsp; Your new card will work with ENCS printers in the Hall building, as well as Library printers in the LB building.<br /><br />To help you with this transition, we're giving all ENCS student their first 200 pages of printing for free. After you've used up your quota of 200 pages, you can make the switch over to using the printing cards to pay for any extra printing. The quota will expire at the end of the 2009/10 academic year.<br /><br />The money that ENCS saves on printing will help us to keep providing students with popular services like our computer labs and the Microsoft Academic Alliance membership that gives students free downloads of many popular Microsoft products.<br /><br />I do apologize for this inconvenience and hope that it won't have too much of a negative effect on the start of the fall semester.<br /><br />With best wishes,<br /><br />Dr. C. W. Truman<br />Associate Dean, Academic Affairs<br />
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+<br />
+
+<div class="clearfix">
+    <div style="width:49%; float:left; text-align:left;">
+    
+      <a href="http://www.encs.concordia.ca/news-and-events/news-archive/index.php?a=2009/08/" title="August 2009">&laquo; August 2009 Archive</a>
+    
+    </div>
+
+    <div style="width:49%; float:right; text-align:right;">
+    
+      <a href="http://www.encs.concordia.ca/news-and-events/news-archive/index.php?a=2009/10/" title="October 2009">October 2009 Archive &raquo;</a>
+    
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="MainContent" --><!-- InstanceEndEditable --><br class="hide" />
+
+			</div>
+			<div class="clear">&nbsp;</div>
+		</div>
+		<div class="clear">&nbsp;</div>
+	</div>
+	
+
+
+		
+
+	<!-- MAIN CONTENT AREA - END -->
+
+
+		<div id="announcement">&nbsp;</div>
+<h2 class="hide">Concordia University</h2>
+<div id="footer">
+  <div id="footer_links">
+    <h2 class="hide">Tools &amp; Quicklinks</h2>
+    <ul style="margin-bottom: 0;"><li><a href="http://www.concordia.ca/azindex/">A-Z Index</a></li>
+      <li><a href="http://www.concordia.ca/directory/">Directory</a></li>
+      <li><a href="http://www.concordia.ca/about/campusmaps/">Campus Map</a> </li>
+      <li><a href="http://www.concordia.ca/busschedule.php">Shuttle Bus Schedule</a></li>
+      <li><a href="http://myconcordia.ca">MyConcordia</a></li>
+      <li><a href="https://mail.encs.concordia.ca/horde/imp/">ENCS Webmail</a></li>
+      <li><a href="http://library.concordia.ca">Libraries</a></li>
+      <li><a href="http://encs.concordia.ca/administration-and-governance/jobs/">Jobs</a></li>
+      <li><a href="http://giving.concordia.ca">Giving to Concordia</a></li>
+      <li><a href="http://encs.concordia.ca/resources/help-desk/">Helpdesk</a></li>
+    </ul>
+  </div>
+ 
+ <div class="clear">&nbsp;</div>
+  <div class="contactinfo"> <a href="http://www.concordia.ca"><img src="http://www.encs.concordia.ca/images/common/concordialogo_bottom.gif" alt="Concordia University Logo" /></a>
+    <div id="footer_address" class="vcard">
+      <p style="margin-bottom: 0"><strong> <span class="fn">Concordia University - <strong><span class="fn">Engineering &amp; Computer Science</span></strong></span></strong><br />
+        <span class="adr"><span class="street-address">1455 de Maisonneuve Blvd. W, </span><span class="locality">Montreal</span>, <span class="region">Quebec</span>, <span class="country-name">Canada</span> <span class="postal-code">H3G 1M8</span></span><br />
+        Telephone <span class="tel">(1) 514-848-2424</span> <br />
+        <a href="http://www.encs.concordia.ca/contactus.php" class="url">Contact Us</a> | <a href="http://www.concordia.ca/about/contactus/">University Mailing Address</a> | <a href="http://www.encs.concordia.ca/aboutthissite.php">About This Site</a><br />
+      Copyright &copy; 2011 <span class="org">Concordia University</span> | <a href="http://www.encs.concordia.ca/legalnotice.php">Legal Notice</a></p>
+    </div>
+  </div>
+  <div id="backtotop">
+    <p style="margin-bottom: 0"><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/09/#top">Back to Top</a></p>
+  </div>
+  <div class="url">
+    <h2>Page Info</h2>
+    <p><strong>Page Title</strong>: News archive for September 2009 - Concordia University - Montreal, Quebec, Canada</p>
+    <p><strong>Page URL</strong>:http://www.encs.concordia.ca/news-and-events/news-archive/index.phpa=2009/0...9/ </p>
+    <p style="margin-bottom: 0;"><strong>Date Printed</strong>: Tue December 13, 2011</p>
+  </div>
+  <div class="clear">&nbsp;</div>
+</div>
+
+<script src="http://globalmk.concordia.ca/extmembers/scripts/replace_localtools.php" type="text/javascript"></script>
+<script src="http://globalmk.concordia.ca/extmembers/plugins/suggestion/get_suggestion.php" type="text/javascript"></script>
+<script src="http://globalmk.concordia.ca/extmembers/scripts/localtools.php" type="text/javascript"> </script>
+<script type="text/javascript">
+secure_suffix = "";
+domain = "www.encs.concordia.ca";
+siteroot = "/";
+relative_path = "../../";
+data_path = "../../custom/";
+</script>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+
+/* Concordia Global Tracking Account */
+var pageTracker = _gat._getTracker("UA-2729211-1");
+pageTracker._setDomainName(".concordia.ca");
+pageTracker._trackPageview();
+
+/* Sub-domain Tracking Account */
+var rollupTracker = _gat._getTracker("UA-12491794-1");
+rollupTracker._setDomainName("encs.concordia.ca");
+rollupTracker._trackPageview();
+
+} catch(err) {}</script>
+
+
+</div>
+</body>
+<!-- InstanceEnd --></html>

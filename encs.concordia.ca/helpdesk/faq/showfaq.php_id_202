@@ -1,0 +1,244 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/helpdesk_base_template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>AITS Helpdesk</title>
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Description" content="AITS, Montreal, Canada">
+<meta name="keywords" content="AITS, Academic Information Technology Services, Concordia university, Canada, Montreal, ">
+<link href="http://www.encs.concordia.ca/Assets/stylesheets/encs.css" rel="stylesheet" type="text/css">
+<link href="http://www.encs.concordia.ca/helpdesk/helpdesk.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" >
+<center>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="21" align="center" bgcolor="#bdb76b"><table cellpadding="0" cellspacing="0" border="0">
+          <tr bordercolor="#999999">
+            <td width="114"><a href="../../index.htm" onmouseover="MM_swapImage('Image1','','/Assets/images/home2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/home1.gif" alt="ENCS Home" name="Image1" width="114" height="21" border="0" id="Image1"></a></td>
+            <td width="114"><a href="../../Administration/administration.htm" onmouseover="MM_swapImage('Image9','','/Assets/images/Adminstration2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/Adminstration1.gif" alt="Administration" name="Image9" width="114" height="21" border="0" id="Image9"></a></td>
+            <td width="114"><a href="../../Alumni" onmouseover="MM_swapImage('Image10','','/Assets/images/Alumni2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/Alumni1.gif" alt="Alumni" name="Image10" width="114" height="21" border="0" id="Image10"></a></td>
+            <td width="114"><a href="../../Faculty/Departments.htm" onmouseover="MM_swapImage('Image12','','/Assets/images/Departments2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/Departments1.gif" alt="Departments" name="Image12" width="114" height="21" border="0" id="Image12"></a></td>
+            <td width="114"><a href="../../Research/Research_Unit.htm" onmouseover="MM_swapImage('Image11','','/Assets/images/research2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/research1.gif" alt="Research" name="Image11" width="114" height="21" border="0" id="Image11"></a></td>
+            <td width="114"><a href="../../News" onmouseover="MM_swapImage('Image13','','/Assets/images/news2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/news1.gif" alt="News & Events" name="Image13" width="114" height="21" border="0" id="Image13"></a></td>
+            <td width="114"><a href="../../About_ENCS/Jobs.htm" onmouseover="MM_swapImage('Image2','','/Assets/images/jobs2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/jobs1.gif" alt="Jobs" name="Image2" border="0" id="Image2"></a></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <TR>
+      <TD vAlign=top width="100%" bgColor=#bdb76b><DIV align=center>
+          <TABLE cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+            <TR>
+              <TD vAlign=top bgColor=#FFFFCC><TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                  <TR>
+                    <TD bgColor=#666666 colSpan=4 height=1><img src="http://www.encs.concordia.ca/Assets/images/dot.gif" height="1"></TD>
+                  </TR>
+                  <TR>
+                    <TD vAlign=top width=240 bgColor=#FFFFCC ><TABLE cellSpacing=0 cellPadding=0 width=120 border=0>
+                        <TR>
+                          <TD vAlign=top width=200 bgColor=#FFFFCC><img src="http://www.encs.concordia.ca/Assets/images/ENCS-logo07.gif" border="0" usemap="#Map"> 
+                        </TR>
+                        <tr>
+                          <td height="50"><div align="center">
+                              <form method="post" action="http://www.encs.concordia.ca/cgi-bin/htsearch">
+                                <font size="1"><strong><font color="#666666">Search Helpdesk:</font></strong></font> <font size="1">
+                                <input size="12" name="words" value="" type="text">
+                                <input name="restrict" value="www.encs.concordia.ca/helpdesk/" type="hidden">
+                                <input value="Go" type="submit">
+                                </font> <br>
+                                <a href="../search.html" style="font-size: xx-small">Advanced</a>
+                              </form>
+                            </div></td>
+                        </tr>
+                        <TR>
+                          <TD vAlign=top width=200 bgColor=#FFFFCC><UL type=circle >
+                              <BR>
+                              <LI><a href="../../aits">AITS Home</A></LI>
+                              <LI><a href="../../Faculty/directory/FA/index.html_AITS">AITS Staff Directory</a></LI>
+                              <LI><a href="../../encsit/public/top/archive">Announcement Archive</a></LI>
+                              <LI><a href="../../encsit/public/top/sitemap.html">Site Map</a></LI>
+                            </UL>
+                            <TABLE cellSpacing=0 cellPadding=0 width=240 align=center border=0>
+                              <TR>
+                                <TD width=100% height=1 bgcolor="#999999"></TD>
+                              </TR>
+                              <TR>
+                                <TD width=100% height=1 bgcolor="#999999"></TD>
+                              </TR>
+                              <TR>
+                                <TD noWrap width=100% bgColor=#AEB96F height=23><DIV align=center><FONT color="#000000" 
+                              size=2 face=Verdana,Arial><B>Quick links</B></FONT></DIV></TD>
+                              </TR>
+                              <TR>
+                                <TD height="1" bgcolor="#999999"></TD>
+                              </TR>
+                              <TR>
+                                <TD><!-- ##QUICKLINKS## START -->
+                                  <ul>
+                                    <br>
+                                    <li> <a href="https://fis.encs.concordia.ca/helpdesk-cgi/doorcode.cgi">Lab door codes</a> </li>
+                                    <li> <a href="https://fis.encs.concordia.ca/helpdesk-cgi/ch-own-pwd.cgi">Change password</a> </li>
+                                    <li> <a href="https://fis.encs.concordia.ca/helpdesk-cgi/quota.cgi">Quota Check </a></li>
+                                    <li> <a href="https://mail.encs.concordia.ca/">Webmail </a></li>
+                                    <li> <a href="https://fis.encs.concordia.ca/eas">Electronic Assignment Submission</a></li>
+                                    <li> <a href="https://fis.encs.concordia.ca/fexch/fexch-description.cgi">File Exchange</a> </li>
+                                    <li><a href="../../aits/public/desktop/USER_Managed_Desktop/Windows/HowTo/Install_Sophos_Antivirus/Install_Sophos_Antivirus.html">Sophos Anti-Virus</a></li>
+                                    <li><a href="../access/lab_operation_hours.html">Lab Operation Hours</a></li>
+                                    <li><a href="../../aits/public/top/courseSupport.html">Course Support</a></li>
+                                    <li><a href="../../aits/software/index.html">Available Softwares </a></li>
+                                    <br>
+                                  </ul>
+                                  <!-- ##QUICKLINKS## END -->
+                                </TD>
+                              </TR>
+                              <TR>
+                                <TD width=100% height=1 bgcolor="#999999"></TD>
+                              </TR>
+                              <TR>
+                                <TD noWrap width=100% bgColor=#AEB96F height=23><DIV align=center><FONT color="#000000" 
+                              size=1 face=Verdana,Arial><B>Contact the Helpdesk</B></FONT></DIV></TD>
+                              </TR>
+                              <TR>
+                                <TD width="100%" height="1" bgcolor="#999999"></TD>
+                              </TR>
+                              <TR>
+                                <TD width="100%"><table width="220" border="0" align="center">
+                                    <tr>
+                                      <td><div align="center"> <br>
+                                          <strong>Faculty</strong><br>
+										  
+										  Room: EV 7-182<br>
+                                          Phone: 5713<br>
+                                                                                   <a href="mailto:facultyhelp@encs.concordia.ca">facultyhelp@encs.concordia.ca</a><br>
+                                          <br>
+                                          <strong>Student</strong><br>
+										  
+										  Room: H - 960<br>
+                                          Phone: 4181<br>
+                                          <a href="mailto:helpdesk@encs.concordia.ca">helpdesk@encs.concordia.ca</a> </div></td>
+                                    </tr>
+                                  </table></TD>
+                              </TR>
+                            </TABLE></TD>
+                        </TR>
+                      </TABLE></TD>
+                    <TD vAlign=top width=1 bgColor=#999999 height="100%"><img src="http://www.encs.concordia.ca/Assets/images/dot.gif" width="1"></TD>
+                    <TD vAlign=top height="100%"><TABLE width="100%" height="100%" border=0 cellPadding=0 cellSpacing=0 bgcolor="#FFFFCC">
+                        <TR>
+                          <TD vAlign=top colspan=2><div align="center"><img src="http://www.encs.concordia.ca/encsit/public/top/Assets/images/AITS-header.jpg"></div>
+                            <a href="../../helpdesk" style="text-decoration: none">
+                            <div style="color: #aeb96f; text-align: center; font-size: 200%; font-weight: 700;">HELPDESK</div>
+                            </a> </TD>
+                        </TR>
+                        <TR>
+                          <td height="100%"></TD>
+                          <TD class=body  align="left" vAlign=top><TABLE cellSpacing=1 cellPadding=0 width="100%" border=0>
+                              <TR>
+                                <TD class=content vAlign=top><font size="2"> </font>
+                                  <div align="center"> </div>
+                                  <!-- add align=center change width from 100% to 90% -->
+                                  <TABLE cellSpacing=2 cellPadding=3 width="90%" align=center border=0>
+                                    <TR>
+                                      <TD class=body vAlign=top width=114></TD>
+                                      <TD class=body></TD>
+                                    </TR>
+                                    <TR>
+                                      <TD colspan="2" vAlign=top class=body><div align="justify"><!-- InstanceBeginEditable name="Insert content of the page here" --> 
+                                          <p><TABLE align="center" border=0 cellpadding=0 cellspacing=0 bgcolor="#888888" width=95%><TR bgcolor="#FCFACC"><TD><a href="faq.php">FAQ Index</a></TD></TR><TR bgcolor="#FCFACC"><TD>&nbsp;</TD></TR><TR bgcolor=#BBBBBB><TD>
+
+<table border=0 cellspacing=1 cellpadding=4 width=100% bgcolor=#888888>
+	<tr bgcolor=#0068A0>
+		<td align="left"><font color=#D0D0D0><b>Printing</b>		</font></td>	</tr>
+	<tr bgcolor=#BBBBBB>
+		<td align="left"><font color=><b>Printing</b>		</font></td>	</tr>
+	<tr bgcolor=#EEEEEE>
+		<td align="left"><TABLE border=0 width=100%><tr>
+		<td align="left">		<b>Do I have the access to the scanner?</b><br>
+		</td>
+		<td align="right" valign="top"><a href="http://www.encs.concordia.ca/helpdesk/faq/sec/login.php?redirect=/helpdesk/faq/showfaq.php?id=202">Login</a></td>
+	</tr>
+	<tr bgcolor=#FFFFFF>
+		<td align="left" colspan=2><p>[<i>Modified Monday, Feb 16th 2009 by saeed</i>]<br><div style="margin-left: 5%; margin-right: 5%;">Yes,<br>
+<br>
+HP Scanjet 5590 Digital Flatbed Scanner is available to all ENCS users in the following computer labs.<br>
+<br>
+EV building:	EV009.245<br>
+Hall building: 	H966<br>
+<br>
+The scanner enables students to scan documents and course notes to a wide range of file types.<br>
+<br>
+Following are the general guidelines to prioritize the use of scanner<br>
+<br>
+"	The scanner is a shared resource to all ENCS users.<br>
+"	ENCS users are eligible to use the scanner on a first-come-first-serve basis.<br>
+"	Please limit your session in case if other people are waiting, you can wait for a second session.<br>
+"	If no one is waiting for the scanner, you may use scanner to finish your job.<br>
+<br>
+NOTE: 	If you don't need to use the scanner, do not login to the scanner computer.<br>
+<br>
+Please refer to the instructions page <a href="http://www.encs.concordia.ca/helpdesk/howto/scanner_use.html" target="_blank"><font color="#0000FF"> HOWTO to use the hp scanjet 5590 digital flatbed scanner.</font></</a>
+</div>
+</td></tr></table></td>
+	</td></tr>
+</table>
+</TD></TR></TABLE> 
+                                          <!-- InstanceEndEditable --> </div></TD>
+                                    </TR>
+                                  </TABLE>
+                                  <BR>
+                                </TD>
+                                <TD class=content vAlign=top>&nbsp;</TD>
+                              </TR>
+                            </TABLE></TD>
+                        </TR>
+                      </TABLE></TD>
+                  </TR>
+                </TABLE></TD>
+            </TR>
+          </TABLE>
+          <font color="#FFFFFF" size="1"><strong> If you have any comments about the website please</strong> </font><font size="1"><a href="../helpdesk.html"><strong>Contact</strong></a></font><font color="#FFFFFF" size="1"> <strong>us</strong></font></DIV></TD>
+    </TR>
+  </TABLE>
+  <div align="right"> <br>
+    Copyright &copy; 2005 Faculty of Engineering &amp; Computer Science</div>
+  <!--- submenu --->
+</center>
+<map name="Map">
+  <area shape="rect" coords="5,15,235,63" href="../../index.html">
+  <area shape="rect" coords="43,67,235,115" href="http://www.concordia.ca/">
+</map>
+</body>
+<!-- InstanceEnd --></html>
