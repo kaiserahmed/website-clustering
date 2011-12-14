@@ -5,7 +5,7 @@ import src.InvertedIndex as ii
 import src.Tokeniser as tk
 import src.WebIndexer as wi
 import src.VectorSpace as vs
-#import src.SpellingCorrector as sc
+import src.SpellingCorrector as sc
 
 class Usage(Exception):
     def __init__(self, msg):
@@ -13,7 +13,7 @@ class Usage(Exception):
 
 def main(argv=None):
     # Sample: Indexing the collection
-    
+    """
     index = ii.InvertedIndex()
     indexer = wi.WebIndexer()
     tokeniser = tk.Tokeniser()
@@ -24,25 +24,23 @@ def main(argv=None):
     ii.load("index/fullindex.csv", index)
     indexer = wi.WebIndexer()
     indexer.load()
-    """
+    
     # Sample: Generating the vector space
     vSpace = vs.VectorSpace(index, indexer)
     vSpace.buildVectors()
-    """
+    
     # Sample: Simple K-means
     k = 3
     # w: List of K clusters [ [docId, docId, ...], [docId, docId, ...], [docId, docId, ...] ]
     # u: List of K centroids [ vSpace.centroid(w[0]), ..., vSpace.centroid(w[k-1]) ]
     # rss: total RSS value for this clustering scheme
     w, u, rss = vSpace.kMeans(k)
-    """
-    """
+
     # Sample: K-means with the smallest RSS using N different seeds
-    k = 10
-    n = 100
+    k = 3
+    n = 10
     w, u, rss = vSpace.kMeansBestOfN(k, n)
-    """
-    """
+
     # Sample: Tokenise input
     tokeniser = tk.Tokeniser()
     userInput = raw_input("> ").strip()
@@ -53,14 +51,16 @@ def main(argv=None):
     terms = [sc.correct(term) for term in terms]
     print terms
 
-    # Sample: Query using cosine-cluster
     queryVector = vSpace.buildQueryVector(terms)
-    closestCluster = vSpace.nearestCluster(w, u, queryVector)
-    docList = vSpace.cosineSort(range(len(vSpace.vectorIndex)), closestCluster, queryVector)
+    docList = vSpace.nearestCluster(w, u, queryVector)
 
     # Sample: getting a list of URLs from a list of doc IDs
     urlList = [indexer.urls[docId] for docId in docList]
-    print urlList
-    """
+
+    count = 1
+    for url in urlList:
+        print count, ":", url
+        count += 1
+
 if __name__ == "__main__":
     sys.exit(main())

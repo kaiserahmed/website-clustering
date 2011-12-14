@@ -1,39 +1,51 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
+import cgi
+import cgitb; cgitb.enable(display=0, logdir="/var/log/cgi-logs/")
+import os.path, sys, getopt, re
+import src.InvertedIndex as ii
+import src.Tokeniser as tk
+import src.WebIndexer as wi
+import src.VectorSpace as vs
+import src.SpellingCorrector as sc
 
-class Usage(Exception):
-    def __init__(self, msg):
-        self.msg = msg
+print "Content-type: text/html"
+print
 
-def main(argv=None):
-    numberOfResults = 10
-    userInput = "Keywords"
+form = cgi.FieldStorage()
+userInput = form.getvalue("searchQuery", "")
 
-    # Sample: Tokenise input
-    terms = tokeniser.tokenise(userInput)
+if (userInput != ""):	
+	# Sample: Loading the index (don't need to if you just indexed, see above)
+    	index = ii.InvertedIndex()
+    	ii.load("index/fullindex.csv", index)
+    	indexer = wi.WebIndexer()
+    	indexer.load()
+    	
+	# Sample: Generating the vector space
+    	vSpace = vs.VectorSpace(index, indexer)
+    	vSpace.buildVectors()
 
-    # Sample: Edit distance
-    terms = [sc.correct(term) for term in terms]
+	w, u, rss = vSpace.kMeansBestOfN(k, n)
 
-    # Sample: Query using cosine-cluster
-    queryVector = vSpace.buildQueryVector(terms)
-    closestCluster = vSpace.nearestCluster(w, u, queryVector)
-    docList = vSpace.cosineSort(range(len(vSpace.vectorIndex)), closestCluster, queryVector)[:numberOfResults]
+	tokeniser = tk.Tokeniser()
 
+	numberOfResults = 10
 
+	terms = tokeniser.tokenise(userInput)
+	terms = [sc.correct(term) for term in terms]
 
-import sys
+	queryVector = vSpace.buildQueryVector(terms)
 
-    print '{\n'
-    for i in range(len(urlList))
-        sys.stdout.write('\t"'+str(i+1)+'" : "'+urlList[i]+'"')
-        if i != (len(urlList)-1):
-            print ','
-    print '\n}'
+	closestCluster = vSpace.nearestCluster(w, u, queryVector)
 
+	docList = vSpace.cosineSort(range(len(vSpace.vectorIndex)), closestCluster, queryVector)[:numberOfResults]
 
-    sys.stdout.write('{\n\t"' + output + '"\n}')
-    if 
+	urlList = [indexer.urls[docId] for docId in docList]
 
-if __name__ == "__main__":
-    sys.exit(main())
+	print '{\n'
+	for i in range(len(urlList)):
+		sys.stdout.write( '\t"' + str(i+1) + '" : "' + urlList[i] + '"')
+		if i != (len(urlList) -1):
+			print ','
+	print '\n}'
