@@ -1,0 +1,322 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>AITS Helpdesk</title>
+<!-- TemplateEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Description" content="AITS, Montreal, Canada">
+<meta name="keywords" content="AITS, Academic Information Technology Services, Concordia university, Canada, Montreal, ">
+<link href="http://www.encs.concordia.ca/Assets/stylesheets/encs.css" rel="stylesheet" type="text/css">
+<link href="http://www.encs.concordia.ca/helpdesk/helpdesk.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function check()
+{
+    var emailPat=/^(.+)@(.+)$/;
+        
+    if(document.form1.sname.value=="")
+        {         
+         alert("Enter your full name");       
+         return false;
+        }
+     else if(!parseInt(document.form1.studid.value) || document.form1.studid.value=="")
+     {
+        alert("Enter a valid student id");   
+        return false;               
+     }
+     else if(document.form1.emailid.value=="")
+     {
+       alert("Enter a valid email address");   
+       return false;               
+     }
+     else if(!emailPat.test(document.form1.emailid.value))
+     {
+       alert("Enter a valid email address");   
+       return false;               
+     }
+     else if(document.form1.subject.value=="")
+     {
+       alert("Enter the problem report subject ");   
+       return false;               
+     }
+     else if(document.form1.labno.value=="")
+     {
+       alert("Please enter the lab no.");   
+       return false;               
+     }
+     else if(document.form1.desc.value=="")
+     {
+       alert("Please enter a description of the actual problem");   
+       return false;               
+     }
+     else
+        return true;    
+    
+}
+
+
+
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+  </script>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+<body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0"> 
+<center> 
+  <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+    <tbody> 
+      <tr> 
+        <td align="center" bgcolor="#bdb76b" height="21"> <table border="0" cellpadding="0" cellspacing="0"> 
+            <tbody> 
+              <tr bordercolor="#999999"> 
+                <td width="114"><a href="../index.htm" onmouseover="MM_swapImage('Image1','','/Assets/images/home2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/home1.gif" alt="ENCS Home" name="Image1" id="Image1" border="0" height="21" width="114"></a></td> 
+                <td width="114"><a href="../Administration/administration.htm" onmouseover="MM_swapImage('Image9','','/Assets/images/Adminstration2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/Adminstration1.gif" alt="Administration" name="Image9" id="Image9" border="0" height="21" width="114"></a></td> 
+                <td width="114"><a href="../Alumni" onmouseover="MM_swapImage('Image10','','/Assets/images/Alumni2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/Alumni1.gif" alt="Alumni" name="Image10" id="Image10" border="0" height="21" width="114"></a></td> 
+                <td width="114"><a href="../Faculty/Departments.htm" onmouseover="MM_swapImage('Image12','','/Assets/images/Departments2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/Departments1.gif" alt="Departments" name="Image12" id="Image12" border="0" height="21" width="114"></a></td> 
+                <td width="114"><a href="../Research/Research_Unit.htm" onmouseover="MM_swapImage('Image11','','/Assets/images/research2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/research1.gif" alt="Research" name="Image11" id="Image11" border="0" height="21" width="114"></a></td> 
+                <td width="114"><a href="../News" onmouseover="MM_swapImage('Image13','','/Assets/images/news2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/news1.gif" alt="News & Events" name="Image13" id="Image13" border="0" height="21" width="114"></a></td> 
+                <td width="114"><a href="../About_ENCS/Jobs.htm" onmouseover="MM_swapImage('Image2','','/Assets/images/jobs2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/jobs1.gif" alt="Jobs" name="Image2" id="Image2" border="0"></a></td> 
+              </tr> 
+            </tbody> 
+          </table></td> 
+      </tr> 
+    </tbody> 
+  </table> 
+  <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> 
+     <tr> 
+      <td bgcolor="#bdb76b" valign="top" width="100%"> <div align="center"> 
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> 
+             <tr> 
+              <td bgcolor="#ffffcc" valign="top"> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> 
+                   <tr> 
+                    <td colspan="4" bgcolor="#666666" height="1"><img src="http://www.encs.concordia.ca/Assets/images/dot.gif" height="1"></td> 
+                  </tr> 
+                  <tr> 
+                    <td bgcolor="#ffffcc" valign="top" width="240"> <table border="0" cellpadding="0" cellspacing="0" width="120"> 
+                        <tbody> 
+                          <tr> 
+                            <td bgcolor="#ffffcc" valign="top" width="200"><img src="http://www.encs.concordia.ca/Assets/images/ENCS-logo07.gif" usemap="#Map" border="0"> </td> 
+                          </tr> 
+                          <tr> 
+                            <td height="50"> <div align="center"> 
+                                <form method="post" action="http://www.encs.concordia.ca/cgi-bin/htsearch"> 
+                                  <font size="1"><strong><font color="#666666">Search Helpdesk:</font></strong></font> <font size="1"> 
+                                  <input size="12" name="words" value="" type="text"> 
+                                  <input name="restrict" value="www.encs.concordia.ca/helpdesk/" type="hidden"> 
+                                  <input value="Go" type="submit"> 
+                                  </font> <br> 
+                                  <a href="search.html" style="font-size: xx-small;">Advanced</a> 
+                                </form> 
+                              </div></td> 
+                          </tr> 
+                          <tr> 
+                            <td bgcolor="#ffffcc" valign="top" width="200"> <ul type="circle"> 
+                                <br> 
+                                <li><a href="../aits">AITS Home</a></li> 
+                                <li><a href="../Faculty/directory/FA/index.html_AITS">AITS Staff Directory</a></li> 
+                                <li><a href="../encsit/public/top/archive">Announcement Archive</a></li> 
+                                <li><a href="../encsit/public/top/sitemap.html">Site Map</a></li> 
+                              </ul> 
+                              <table align="center" border="0" cellpadding="0" cellspacing="0" width="240"> 
+                                <tbody> 
+                                  <tr> 
+                                    <td bgcolor="#999999" height="1" width="100%"></td> 
+                                  </tr> 
+                                  <tr> 
+                                    <td bgcolor="#999999" height="1" width="100%"></td> 
+                                  </tr> 
+                                  <tr> 
+                                    <td bgcolor="#aeb96f" height="23" nowrap="nowrap" width="100%"> <div align="center"><font color="#000000" face="Verdana,Arial" size="2"><b>Quick links</b></font></div></td> 
+                                  </tr> 
+                                  <tr> 
+                                    <td bgcolor="#999999" height="1"></td> 
+                                  </tr> 
+                                  <tr> 
+                                    <td><!-- ##QUICKLINKS## START --> 
+					                                  <ul>
+                                    <br>
+                                    <li> <a href="https://fis.encs.concordia.ca/helpdesk-cgi/doorcode.cgi">Lab door codes</a> </li>
+                                    <li> <a href="https://fis.encs.concordia.ca/helpdesk-cgi/ch-own-pwd.cgi">Change password</a> </li>
+                                    <li> <a href="https://fis.encs.concordia.ca/helpdesk-cgi/quota.cgi">Quota Check </a></li>
+                                    <li> <a href="https://mail.encs.concordia.ca/">Webmail </a></li>
+                                    <li> <a href="https://fis.encs.concordia.ca/eas">Electronic Assignment Submission</a></li>
+                                    <li> <a href="https://fis.encs.concordia.ca/fexch/fexch-description.cgi">File Exchange</a> </li>
+                                    <li><a href="../aits/public/desktop/USER_Managed_Desktop/Windows/HowTo/Install_Sophos_Antivirus/Install_Sophos_Antivirus.html">Sophos Anti-Virus</a></li>
+                                    <li><a href="http://www.encs.concordia.ca/access/lab_operation_hours.html">Lab Operation Hours</a></li>
+                                    <li><a href="../aits/public/top/courseSupport.html">Course Support</a></li>
+                                    <li><a href="../aits/software/index.html">Available Softwares </a></li>
+                                    <br>
+                                  </ul>
+                                      <!-- ##QUICKLINKS## END --> </td> 
+                                  </tr> 
+                                  <tr> 
+                                    <td bgcolor="#999999" height="1" width="100%"></td> 
+                                  </tr> 
+                                  <tr> 
+                                    <td bgcolor="#aeb96f" height="23" nowrap="nowrap" width="100%"> <div align="center"><font color="#000000" face="Verdana,Arial" size="1"><b>Email the Helpdesk</b></font></div></td> 
+                                  </tr> 
+                                  <tr> 
+                                    <td bgcolor="#999999" height="1" width="100%"></td> 
+                                  </tr> 
+                                  <tr> 
+                                    <td width="100%"> <table align="center" border="0" width="220"> 
+                                        <tbody> 
+                                          <tr> 
+                                            <td> <div align="center"> <br> 
+                                                Students<br> 
+                                                <a href="mailto:helpdesk@encs.concordia.ca">helpdesk@encs.concordia.ca</a><br> 
+                                                <br> 
+                                                Faculty<br> 
+                                                <a href="mailto:facultyhelp@encs.concordia.ca">facultyhelp@encs.concordia.ca</a> </div></td> 
+                                          </tr> 
+                                        </tbody> 
+                                      </table></td> 
+                                  </tr> 
+                                </tbody> 
+                              </table></td> 
+                          </tr> 
+                        </tbody> 
+                      </table></td> 
+                    <td bgcolor="#999999" height="100%" valign="top" width="1"><img src="http://www.encs.concordia.ca/Assets/images/dot.gif" width="1"></td> 
+                    <td height="100%" valign="top"> <table bgcolor="#ffffcc" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%"> <tbody> 
+                         <tr> 
+                          <td colspan="2" valign="top"> <div align="center"><img src="http://www.encs.concordia.ca/encsit/public/top/Assets/images/AITS-header.jpg"></div> 
+                             <a href="../helpdesk" style="text-decoration: none;"> 
+                            <div style="color: rgb(174, 185, 111); text-align: center; font-size: 200%; font-weight: 700;">HELPDESK</div> 
+                            </a> </td> 
+                        </tr> 
+                        <tr> 
+                          <td height="100%"></td> 
+                          <td class="body" align="left" valign="top"> <table border="0" cellpadding="0" cellspacing="1" width="100%"> <tbody> 
+                               <tr> 
+                                <td class="content" valign="top"><font size="2"> </font> 
+                                   <div align="center"> </div> 
+                                   <!-- add align=center change width from 100% to 90% --> 
+                                   <table align="center" border="0" cellpadding="3" cellspacing="2" width="90%"> <tbody> 
+                                     <tr> 
+                                       <td class="body" valign="top" width="114"></td> 
+                                       <td class="body"></td> 
+                                     </tr> 
+                                    <tr> 
+                                       <td colspan="2" class="body" valign="top"> <div style="text-align: right;"></div> 
+                                        <div align="justify"> 
+                                           <div style="text-align: right;"></div> 
+                                           <h1 style="text-align: center;"><b>AITS Problem Report Form</b></h1> 
+                                           <div align="center"> <font color="red">Items marked with an asterisk (*) MUST be completed.</font> </div> 
+                                           <br/> 
+                                           <br/> 
+                                           <form name="form1" action="http://www.encs.concordia.ca/helpdesk/report.php" method="post" onsubmit="return check()"> 
+                                            <table> 
+                                               <tbody> 
+                                                <tr> 
+                                                   <td>Full Name:<sup>*</sup></td> 
+                                                   <td> <input name="sname" size="50" type="text"> </td> 
+                                                 </tr> 
+                                                <tr> 
+                                                   <td>Student ID:<sup>*</sup></td> 
+                                                   <td> <input name="studid" size="50" type="text"> </td> 
+                                                 </tr> 
+                                                <tr> 
+                                                   <td> Email Address (ENCS email Address preferred):<sup>*</sup> </td> 
+                                                   <td> <input name="emailid" size="50" type="text"> </td> 
+                                                 </tr> 
+                                                <tr> 
+                                                   <td>Subject:<sup>*</sup></td> 
+                                                   <td><input name="subject" size="50" type="text"></td> 
+                                                 </tr> 
+                                                <tr> 
+                                                   <td>Operating System:<sup>*</sup> </td> 
+                                                   <td> <select name="os"> 
+                                                       <option value="Windows7">Windows 7</option> 
+                                                       <option value="Winxp">WinXP</option> 
+                                                       <option value="Linux">Linux</option> 
+                                                       <option value="Solaris">Sun Solaris</option> 
+                                                     </select> </td> 
+                                                 </tr> 
+                                                <tr> </tr> 
+                                                <tr> 
+                                                   <td>Type of Computer:<sup>*</sup> </td> 
+                                                   <td> <select name="compcut"> 
+                                                       <option value="Lab">Laboratory Desktop</option> 
+                                                       <option value="Office">Office Desktop</option> 
+                                                       <option value="Grad">Graduate Desktop</option> 
+                                                       <option value="Research">Research Desktop</option> 
+                                                       <option value="User-Managed">User-Managed Desktop</option> 
+                                                       <option value="Other">Other Desktop</option> 
+                                                     </select> </td> 
+                                                 </tr> 
+                                                <tr> 
+                                                   <td> Computer Name: </td> 
+                                                   <td> <input name="cname" size="50" type="text"> </td> 
+                                                 </tr> 
+                                                <tr> 
+                                                   <td> Room Number:<sup>*</sup> </td> 
+                                                   <td> <input name="labno" size="50" type="text"> </td> 
+                                                 </tr> 
+                                                <tr> 
+                                                   <td>Owner of Computer (in Research lab): </td> 
+                                                   <td><input name="owner" size="50" type="text"></td> 
+                                                 </tr> 
+                                              <td>ENCS Tag: </td> 
+                                                <td><input name="tag" size="50" type="text"></td> 
+                                              </tr> <tr> 
+                                                <td>Problem Description:<sup>*</sup></td> 
+                                                <td><textarea rows="10" cols="50" name="desc"></textarea></td> 
+                                              </tr> 
+                                               </tbody> 
+                                                </table> 
+                                            <input value="Submit Report" type="submit"> 
+                                            <input value="Reset Report" type="reset"> 
+                                          </form> 
+                                         </div></td> 
+                                     </tr> 
+                                    </tbody> 
+                                     </table> 
+                                   <br> </td> 
+                                <td class="content" valign="top">&nbsp;</td> 
+                              </tr> 
+                              </tbody> 
+                               </table></td> 
+                        </tr> 
+                        </tbody> 
+                         </table></td> 
+                  </tr> 
+                  </tbody> 
+                   </table></td> 
+            </tr> 
+            </tbody> 
+             </table> 
+          <font color="#ffffff" size="1"><strong>If you have any comments about the website please</strong> </font><font size="1"><a href="mailto:rt-in-sdesk@encs.concordia.ca"><strong>email</strong></a></font><font color="#ffffff" size="1"> <strong>us</strong></font></div></td> 
+    </tr> 
+    </tbody> 
+     </table> 
+  <div align="right"> <br> 
+    Copyright &copy; 2005 Faculty of Engineering &amp; Computer Science</div> 
+  <!--- submenu ---> 
+</center> 
+<map name="Map"> 
+  <area shape="rect" coords="5,15,235,63" href="../index.html"> 
+  <area shape="rect" coords="43,67,235,115" href="http://www.concordia.ca/"> 
+</map> 
+</body>
+</html>

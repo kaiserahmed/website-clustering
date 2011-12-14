@@ -1,0 +1,1643 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><!-- InstanceBegin template="/Templates/insidepage_xml.dwt.php" codeOutsideHTMLIsLocked="true" -->
+
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>News archive for November 2011 - Engineering &amp; Computer Science - Concordia University - Montreal, Quebec, Canada</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="hidden" content="" />
+	<meta name="owner" content="Engineering &amp; Computer Science" />
+	<meta name="author" content="Concordia University" />
+	<meta name="copyright" content="Concordia University" />
+	<meta name="meta_tag_generator" content="" />
+	<meta name="robots" content="all,index" />
+	<meta name="resource-type" content="document" />
+	<meta name="distribution" content="global" />
+	<meta name="classification" content="" />
+	<meta name="rating" content="general" />
+	<meta name="language" content="en-ca" />
+	
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/encs" />
+
+	<link rel="shortcut icon" href="http://globalmk.concordia.ca/favicon.ico" />
+	<link rel="stylesheet" href="http://globalmk.concordia.ca/extmembers/stylesheets/common.php" type="text/css" media="all" charset="UTF-8" />
+	<link rel="stylesheet" href="http://globalmk.concordia.ca/extmembers/stylesheets/announcement_alert.php" type="text/css" media="all" charset="UTF-8" />
+
+<style type="text/css">
+#banner{background-image:url(../../images/banner-6.jpg)!important;}
+</style>
+
+
+	<link rel="stylesheet" href="http://www.encs.concordia.ca/stylesheets/custom.php?secure=&version=1.7.3" type="text/css" media="all" charset="UTF-8" />
+	
+
+	<!--[if lt IE 7]>
+	<link rel="stylesheet" href="../../stylesheets/ie6.css" type="text/css" media="all" charset="UTF-8" />
+	<link rel="stylesheet" href="http://globalmk.concordia.ca/extmembers/stylesheets/ie6.css" type="text/css" media="all" charset="UTF-8" />
+	<![endif]-->
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="../../stylesheets/ie7.css" type="text/css" media="all" charset="UTF-8" />
+	<link rel="stylesheet" href="http://globalmk.concordia.ca/extmembers/stylesheets/ie7.css" type="text/css" media="all" charset="UTF-8" />
+	<![endif]-->
+	<!--[if IE 8]>
+	<link rel="stylesheet" href="../../stylesheets/ie8.css" type="text/css" media="all" charset="UTF-8" />
+	<link rel="stylesheet" href="http://globalmk.concordia.ca/extmembers/stylesheets/ie8.css" type="text/css" media="all" charset="UTF-8" />
+	<![endif]-->
+	<link rel="stylesheet" href="http://www.encs.concordia.ca/stylesheets/m.css" type="text/css" media="all" charset="UTF-8" title="text_m" />
+	<link rel="alternate stylesheet" type="text/css" href="http://www.encs.concordia.ca/stylesheets/l.css" media="all" charset="UTF-8" title="text_l" />
+	<link rel="alternate stylesheet" type="text/css" href="http://www.encs.concordia.ca/stylesheets/xl.css" media="all" charset="UTF-8" title="text_xl" />
+
+
+	<script src="http://globalmk.concordia.ca/extmembers/plugins/conuni/maintrigger.php" type="text/javascript"></script>
+	<script src="http://globalmk.concordia.ca/extmembers/scripts/styleswitcher.php" type="text/javascript" charset="UTF-8"> </script>
+	<script src="http://globalmk.concordia.ca/extmembers/scripts/domeffects.php" type="text/javascript" charset="UTF-8"> </script>
+	
+
+<script type="text/javascript">
+//<![CDATA[
+	window.addEvent('domready', function(){
+		activesearch(); queryclick(); sizebuttons(); styleswitcher(); queryclick_media(); tablelinks(); showbookmarks(); alternateRows();
+		breakawaynav_arrows(); homebutton(); 		
+	});
+	//]]>
+</script>
+
+
+	<script src="http://globalmk.concordia.ca/extmembers/scripts/swfobject.php" type="text/javascript" charset="UTF-8"> </script>
+
+<!-- AZ INDEX SUGGESTIONS-->
+	<script src="http://globalmk.concordia.ca/extmembers/scripts/jquery.php" type="text/javascript"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+		if (!window.opera) {
+		$(document).ready( function() {
+			textsizeactive(); main_trigger();
+						replace_localtools('www.encs.concordia.ca','%2Fnews-and-events%2Fnews-archive%2Findex.php%3Fa%3D2011%2F11%2F','News%20archive%20for%20November%202011', '/');
+					});
+	}
+	domainname = "www.encs.concordia.ca";
+//]]>
+</script>
+
+<script type="text/javascript" src="http://www.encs.concordia.ca/modules/jquery/jquery-1.3.2.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+jQuery(function() {
+
+	var past_software_content = $('#collapsable_1').html();
+	
+	if (past_software_content != '' && past_software_content != '&nbsp;')
+	{
+		$('#past_software_controls').html('[<a id="btn_expand">Show</a><a id="btn_collapse" style="display:none;">Hide</a>]');
+		//$('#past_software_controls').html('<a id="btn_expand"></a><a id="btn_collapse" style="display:none;"></a>');
+
+		$('#btn_expand').click(function()
+		{
+			//$('#collapsable_1').slideDown();
+			$('#collapsable_1').show();
+			$('#btn_expand').hide();
+			$('#btn_collapse').show();
+		});
+		
+		$('#btn_collapse').click(function()
+		{
+			//$('#collapsable_1').slideUp();
+			$('#collapsable_1').hide();
+			$('#btn_expand').show();
+			$('#btn_collapse').hide();
+		});
+		
+	}
+
+	$('.researchchair p').hide();
+	
+	$('.researchchair div').click(function() {
+		
+		if($(this).hasClass('open'))
+		{
+			$(this).removeClass('open');
+			$(this).next().slideUp(200);
+		}
+		else
+		{
+			$(this).addClass('open');
+			$(this).next().slideDown(200);
+		}
+	
+	});
+	
+});
+//]]>
+</script>
+
+
+
+</head>
+
+
+
+<body id="body_li_news-archive_2a" class="li_mainmenu_news-and-events_1 li_submenu_news-archive_2 li_submenu_news-archive_3" >
+<!-- Contribute/DW Template System Version 1.7.3 or help contact Rommil Santiago (rommil.santiago@concordia.ca) -->
+<div id="top"></div>
+<div id="globaltools">
+  <div id="globaltools_bg">
+    <div class="globaltools_pagewidth">
+      <h2 class="hide">Accessibility Tools</h2>
+      <ul class="accesstools">
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/index.php?a=2011/11/#maincontent" accesskey="s">Skip to Content</a></li>
+        <li><a href="../../accessibility.php" accesskey="0">Accessibility</a></li>
+        <li id="textsize_li">Text Size: <span id="textsizetools"><a href="http://www.encs.concordia.ca/accessibility.php#textsize_faq">N/A</a></span></li>
+		<li><a href="http://feeds.feedburner.com/encs" class="rssfeed">RSS Feed</a></li>		
+      </ul>  
+	<h3 class="hide">Breadcrumb</h3>	  
+      <ul class="globalbreadcrumb">
+        <li><a href="http://www.concordia.ca" accesskey="h">Concordia Home</a><img src="http://www.encs.concordia.ca/images/common/globaltoolbar_arrow_white.gif" alt=">" class="globaltools_arrow" /></li>
+				
+		<li><a href="../../index.html">Engineering &amp; Computer Science Home</a></li>
+	  </ul>
+	  <div class="clear">&nbsp;</div>
+    </div>
+  </div>
+</div>
+<div id="emergency_alert">&nbsp;</div><div id="page">
+	<div id="banner">
+
+	<a href="../../index.html" accesskey="1" title="Return to the Engineering & Computer Science Homepage" id="nameblock"></a>
+
+<h3 class="hide">Search</h3>
+<div id="search" class="search">
+<form id="search_toplevel" action="http://globalmk.concordia.ca/search/searchredirect.php" method="post">
+        <ul class="li_thissite" id="search_option_list">
+ 		  <li><a href="http://www.google.ca/search?hl=en&q=site%3Ahttp://www.encs.concordia.ca/&btnG=Search&meta=" id="li_thissite">ENCS</a></li>
+          <li><a href="http://www.google.ca/search?hl=en&q=site%3Ahttp%3A%2F%2Fwww.concordia.ca&btnG=Search&meta=" id="li_entire">All of Concordia</a></li>
+          <li><a href="http://www.concordia.ca/directory/" id="li_staff">Staff &amp; Faculty Directory</a></li>
+          <!--<li><a href="http://news.concordia.ca/" id="li_news">News</a></li>
+          <li><a href="http://www3.concordia.ca/events/" id="li_events">Events</a> </li>-->
+        </ul>
+        <div id="search_toplevel_tools">
+		  <label for="search_toplevel_query" class="hide">Search Query</label>
+		  <input id="search_toplevel_query" name="query" value="Enter your query here" type="text" accesskey="4" onkeyup="getResult(this.value, 'suggest_hint')" />
+          <input type="submit" value="Search" id="search_toplevel_submit"/>
+          <input id="search_selected" name="li_thissite" value="1" type="hidden" />
+		  <input id="search_sitename" name="sitename" value="Engineering &amp; Computer Science" type="hidden" />
+		  <input id="search_googleraw" name="googleraw" value="cx=006658531582020549846:usdvagrzimk&amp;amp;cof=FORID%3A11&amp;amp;sa=Search" type="hidden" />
+		  <input id="javascript_enabled" name="javascript_enabled" value="0" type="hidden" />
+		  <input id="siteroot" name="siteroot" value="/" type="hidden" />
+		  <input id="siteurl" name="siteurl" value="www.encs.concordia.ca" type="hidden" />
+        </div>
+      </form>
+      <div id="suggest_hint">&nbsp;</div>
+    </div>
+<h2 class="hide">Main Menu</h2>
+<div id="mainmenu">
+<ul class="themainmenu"> <li id="li_mainmenu_future-students_1" >
+<a class="li_mainmenu_future-students_1_a" href="../../future-students/index.html">
+Future students </a>
+</li>
+<li id="li_mainmenu_current-students_1" >
+<a class="li_mainmenu_current-students_1_a" href="../../current-students/index.html">
+Current students </a>
+</li>
+<li id="li_mainmenu_administration-and-governance_1" >
+<a class="li_mainmenu_administration-and-governance_1_a" href="../../administration-and-governance/index.html">
+Administration<br />&amp; governance </a>
+</li>
+<li id="li_mainmenu_research_1" >
+<a class="li_mainmenu_research_1_a" href="../../research/">
+Research </a>
+</li>
+<li id="li_mainmenu_resources_1" >
+<a class="li_mainmenu_resources_1_a" href="../../resources/">
+Resources </a>
+</li>
+<li id="li_mainmenu_policies-and-procedures_1" >
+<a class="li_mainmenu_policies-and-procedures_1_a" href="../../policies-and-procedures/">
+Policies &amp;<br />procedures </a>
+</li>
+<li id="li_mainmenu_news-and-events_1" class="active">
+<a class="li_mainmenu_news-and-events_1_a" href="../">
+News &amp; events </a>
+</li></ul>
+</div>
+
+</div>
+	<h2 class="hide">News &amp; events</h2>
+<div class="submenu">
+<ul id="ul_news-and-events">
+
+
+
+
+
+<li id="li_submenu_news-archive_2" class="active">
+<a class="li_submenu_news-archive_2_a" href="index.html">
+News Archive </a>
+</li>
+<li id="li_submenu_events_2" >
+<a class="li_submenu_events_2_a" href="http://www.encs.concordia.ca/news-and-events/events/">
+Events </a>
+</li>
+<li id="li_submenu_announcements_2" >
+<a class="li_submenu_announcements_2_a" href="http://www.encs.concordia.ca/news-and-events/announcements/">
+Announcements </a>
+</li>
+<li id="li_submenu_faculty-magazine_2" >
+<a class="li_submenu_faculty-magazine_2_a" href="http://www.encs.concordia.ca/news-and-events/faculty-magazine/">
+Faculty Magazine </a>
+</li>
+<li id="li_submenu_get-connected_2" >
+<a class="li_submenu_get-connected_2_a" href="http://www.encs.concordia.ca/news-and-events/get-connected/">
+Get Connected </a>
+</li></ul>
+</div>
+	<div id="maincontent"  class="topgutter"  >
+		<div id="lh_menu_area">
+			</div>
+		<div class="insidecontent ">
+
+			<p class="breadcrumb"><a href="../../index.html">ENCS Home</a> &gt; <a href="../index.php">News &amp; events</a> &gt; </p>
+		<div id="localtools_wrapper">&nbsp;</div>
+	<h1>News archive for November 2011</h1>
+	<div class="page-title-hline">&nbsp;</div>
+	
+
+
+
+
+
+
+
+
+
+
+<!-- MAIN CONTENT AREA - START -->
+
+
+
+		<div class="floatright">
+			<br class="hide" />
+<!-- InstanceBeginEditable name="sidebar" --><!-- FCKEDITOR_sidebar --><!-- /FCKEDITOR_sidebar -->
+
+	<div class="sidebar_box_1">
+		<h2>Monthly Archives</h2>
+<div class="archive-monthly archive">
+    
+        
+                                <div class="archive-content">
+                                    <ul>
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_12_">December 2011</a> (3)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_11_">November 2011</a> (11)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_10_">October 2011</a> (7)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="_a_2011_09_">September 2011</a> (6)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2011/08/">August 2011</a> (3)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2011/07/">July 2011</a> (2)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2011/06/">June 2011</a> (6)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2011/05/">May 2011</a> (8)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2011/04/">April 2011</a> (10)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2011/03/">March 2011</a> (10)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2011/02/">February 2011</a> (6)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2011/01/">January 2011</a> (10)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2010/12/">December 2010</a> (6)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2010/11/">November 2010</a> (10)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2010/10/">October 2010</a> (11)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2010/09/">September 2010</a> (5)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2010/08/">August 2010</a> (5)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2010/07/">July 2010</a> (5)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2010/06/">June 2010</a> (13)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2010/05/">May 2010</a> (4)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2010/04/">April 2010</a> (8)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2010/03/">March 2010</a> (17)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2010/02/">February 2010</a> (5)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2010/01/">January 2010</a> (5)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/12/">December 2009</a> (5)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/11/">November 2009</a> (9)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/10/">October 2009</a> (5)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/09/">September 2009</a> (8)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/08/">August 2009</a> (3)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/07/">July 2009</a> (3)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/06/">June 2009</a> (6)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/04/">April 2009</a> (1)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+        <li><a href="http://www.encs.concordia.ca/news-and-events/news-archive/?a=2009/03/">March 2009</a> (2)</li>
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+    
+        
+
+    
+
+                                        
+        
+                                    </ul>
+                                </div>
+        
+    
+                            </div>
+
+
+
+
+	</div>
+
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="Sidebar" --><!-- InstanceEndEditable --><br class="hide" />
+			</div>
+
+
+			<div class="contentcolumn">
+				<br class="hide" />
+<!-- InstanceBeginEditable name="maincontent" --><!-- FCKEDITOR_maincontent --><!-- /FCKEDITOR_maincontent -->
+
+
+<div id="entry-434">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="../entry.php_a_2011_11_launch-of-the-accesgenieca-portal.php">Launch of the accesgenie.ca portal</a></h2>
+		<div class="entry-meta" title="2011-11-28T11:24:02-05:00">Monday Nov 28, 2011
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			<img alt="accesgenie_noir.png" src="http://newsfeed.encs.concordia.ca/encs_test/accesgenie_noir.png" class="mt-image-right" style="float: right; margin: 0 0 20px 20px;" height="100" width="320" />The continuing education centres of the engineering faculties at the Université de Sherbrooke and Polytechnique Montréal, and the School of Extended Learning at Concordia University (in collaboration with Concordia University's Faculty of Engineering and Computer Science), have launched the accesgenie.ca portal, a new website that will propose university level professional development services. The initiative gives concrete expression to their partnership to provide continuing education services for their graduates and engineers. The event took place on Monday, November 28, 2011, in the Espace culturel of the library of Polytechnique Montréal located on the seventh floor of the Lassonde buildings.<br /><br />Representatives of the three educational institutions, Pierre G. Lafleur, Director, Academic and International Affairs, Polytechnique Montréal; Dominique Lefebvre, Assistant Dean of Professional Development, Université de Sherbrooke; Noel Burke, Dean, School of Extended Learning, Concordia University; and Robin Drew, Dean, Faculty of Engineering and Computer Science, Concordia University, spoke at the event.<br /><br /><div align="center"><img alt="accessweb.jpg" src="http://newsfeed.encs.concordia.ca/encs_test/accessweb.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" height="230" width="440" /><i><font style="font-size: 0.8em;">Left to right: Pierre G. Lafleur, Chief Academic and International Officer, Polytechnique Montréal; Noel Burke, Dean, School of Extended Learning, Concordia University; Robin Drew, Dean, Faculty of Engineering and Computer Science, Concordia University and Dominique Lefebvre, Assistant Dean of Continuing Education, Université de Sherbrooke.</font></i><br /></div><br />The institutions consolidated their resources and expertise in order to gradually offer services that will enable their clienteles to enrich their skills and qualifications to plan and develop their careers. The accesgenie.ca portal marks the first stage in their collaboration. The site proposes quick access through a single outlet to a list of courses in an array of sectors of activity specifically related to engineering. Other services relevant to engineers' needs in their professional activities will be offered in the coming months.<br /><br />The new partnership has been established to satisfy needs stemming from the new regulation on the professional development of engineers, which compels members of the Ordre des ingénieurs du Québec to accumulate at least 30 hours of professional development during a two-year reference period.<br /><br />Engineers and technologists will thus be able to quickly access the foremost expertise of three major faculties of engineering in Québec and Canada through <a href="http://accesgenie.ca/">accesgenie.ca.</a> <div><br /></div>
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-433">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="../entry.php_a_2011_11_adriq-recognizes-partnership-between-concordia-and-ericsson.php">ADRIQ recognizes partnership between Concordia and Ericsson</a></h2>
+		<div class="entry-meta" title="2011-11-23T14:45:57-05:00">Wednesday Nov 23, 2011
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			The industrial application of academic research is a hallmark of Concordia's Faculty of Engineering and Computer Science. This fact was recently recognized during the 21st annual gala of the Association de la recherche industrielle du Québec (ADRIQ), when the technological partnership prize was jointly presented to Concordia University and Ericsson in honour of Dr. Ferhat Khendek's groundbreaking work with the telecommunications giant.<br /><br /><div align="center"><img alt="Khendek-1.jpg" src="http://newsfeed.encs.concordia.ca/encs_test/Khendek-1.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" height="330" width="440" /><font style="font-size: 0.8em;"><i>Ferhat Khendek, centre, alongside other winners during the ADRIQ gala</i></font><br /></div><br />The partnership between Ericsson and Khendek, who is a Professor within Concordia's <a href="http://www.ece.concordia.ca/">Department of Electrical and Computer Engineering</a>, was a three-year collaboration known as pure <a href="http://users.encs.concordia.ca/%7Emagic/">MAGIC</a> - that is, the Modeling and Automatic Generation of Information and upgrade Campaigns project. Jointly funded by Ericsson and the Natural Sciences and Engineering Research Council (NSERC), the project examined standardization solutions for the programs that run between a cellular device's operating systems and its applications software, also known as "middleware." <br /><br />Explains Khendek, "companies like Siemens, Nokia, Ericsson, IBM, Microsoft and HP got together to standardize these systems and thereby promote the increased usability of applications developed for them and their customers." In short, a standardized middleware means that applications can be run on a wider variety of devices. For example, says, Khendek, "if I develop an app, and both Ericsson and Nokia are running the same middleware, the app will work on devices made by both companies." <br /><br /><div align="center"><img alt="Khendek-2.jpg" src="http://newsfeed.encs.concordia.ca/encs_test/Khendek-2.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" height="256" width="440" /><i><font style="font-size: 0.8em;">Ferhat Khendek speaks onstage during the gala</font></i><br /></div><br />Khendek and his team helped Ericsson configure these applications properly and automatically, and speed up their time to market. The second aspect of the MAGIC project focused on the upgrade of such applications and how best to upgrade them with minimal downtime to the service. <br /><br />The Prix partenariat (partnership prize) is presented jointly to a company and an institution that are collaborating in a technological partnership that clearly demonstrates the benefits of shared expertise. The partnership results in the creation of a new product/procedure/technology, or research and development program, brought to term by the institution for the company, which then successfully ensures the project's commercialization. The MAGIC project undertaken by Khendek and his colleagues, both at Concordia and Ericsson, amply met these requirements and more, beating out competitors including Innu-Science Canada &amp; CNETE &amp; IDE, Trois-Rivières, Pfizer Canada &amp; Université de Sherbrooke. <br /><br />The prize was presented during the 21st ADRIQ gala, held in Montreal on November 23, 2011.
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-432">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="../entry.php_a_2011_11_xavier-henri-herve-honoured-alongside-new-graduates-at-fall-convocation.php">Xavier-Henri Hervé honoured alongside students at convocation</a></h2>
+		<div class="entry-meta" title="2011-11-23T12:44:22-05:00">Wednesday Nov 23, 2011
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			Concordia held its fall convocation ceremonies yesterday at Place-des-Arts in downtown Montreal. The afternoon proceedings celebrated new graduates from the Faculty of Engineering and Computer Science, along with those from the Faculty of Fine Arts.<br /><br /><div align="center"><img alt="Convo-1-sm.jpg" src="http://newsfeed.encs.concordia.ca/encs_test/Convo-1-sm.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" width="440" height="283" /><i><font style="font-size: 0.8em;">From left to right: Martin Pugh, L. Jacques Ménard, Xavier-Henri Hervé, Fred Lowy, Robin Drew</font></i><br /></div><br />Front and centre was special guest, Xavier-Henri Léger, who was presented with an honorary doctorate in recognition of his innovative work in the evolving field of flight simulators. Not only is Hervé the President of <a href="http://www.mechtronix.com/">Mechtronix</a> Systems Inc., he is a Concordia alumnus who received his Bachelor of Science in Mechanical Engineering. It was especially fitting, then, that he was introduced by Dr. Martin Pugh, Chair of the Department of Mechanical and Industrial Engineering. Taking the podium in full academic dress, Pugh praised Hervé for his business acumen and proudly told the audience that this was a man who "believes in thinking beyond traditional boundaries."<br /><br /><div align="center"><img alt="Convo-2-sm.jpg" src="http://newsfeed.encs.concordia.ca/encs_test/Convo-2-sm.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" width="440" height="285" /><font style="font-size: 0.8em;"><i>From left to right: Martin Pugh, Xavier-Henri Hervé, Robin Drew</i></font><br /></div><br />When it was Hervé's turn at the mic, he could not contain his enthusiasm, exclaiming a heartfelt "wow!" as he looked at the audience. He spoke of how the day's graduands now have the "Concordia DNA" and have been "trained to change the world through innovation." He also outlined four important elements of achievement that would help take these bright young minds to the next level: perseverance, international scope, leadership awareness, and alignment of emotions. Wrapping up his speech, he sincerely told the graduates in front of him that he was one of them now: "I'm part of your team now--give me a call if ever you need a hand!"<br /><br /><div align="center"><img alt="Convo-3-sm.jpg" src="http://newsfeed.encs.concordia.ca/encs_test/Convo-3-sm.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" width="440" height="292" /><font style="font-size: 0.8em;"><i>Concordia's Chancellor, L. Jacques Ménard presents Hervé with his diploma</i></font><br /></div><br />After all the degrees had been awarded, Concordia's President, Fred Lowy, closed the ceremony with kind words of encouragement and with hopes that all our new graduates will continue to keep in touch as they pursue careers and make their way in the world.<br /><br /><b>Related links:</b><br /><br /><ul><li>To watch the ceremony in its entirety, visit: <a href="http://webcasts.pqm.net/client/concordia/event/234/en/play/b/">http://webcasts.pqm.net/client/concordia/event/234/en/play/b/</a></li></ul><ul><li>To read more about Xavier-Henri Hervé, go to: <a href="http://webcasts.pqm.net/client/concordia/event/234/en/play/b/">http://www.concordia.ca/services/graduation-and-convocation/honorary-doctorates/#herve</a></li></ul> <div><br /></div>
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-430">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="../entry.php_a_2011_11_kryzak-named-ieee-fellow.php">Krzyzak named IEEE Fellow</a></h2>
+		<div class="entry-meta" title="2011-11-22T10:06:21-05:00">Tuesday Nov 22, 2011
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			<img alt="krzyzak-adam.jpg" src="http://newsfeed.encs.concordia.ca/encs_test/krzyzak-adam.jpg" class="mt-image-left" style="float: left; margin: 0 20px 20px 0;" height="250" width="200" />The Faculty of Engineering and Computer Science is pleased to announce that Professor Adam Krzyzak of the Department of Computer Science and Software Engineering will be elevated to the status of Fellow of the IEEE, effective of January 1, 2012, in honour of his contributions to nonparametric algorithms and classification systems for machine learning.<br /><br />The title of IEEE Fellow is one of the most prestigious honours of the IEEE, and is bestowed upon a very limited number of Senior Members of the international engineering organization who have made outstanding contributions to the electrical and information technologies and sciences for the benefit of humanity and the profession.
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-429">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2011/11/students-recognized-at-hydro-quebec-reception.php">Students recognized at Hydro-Québec reception</a></h2>
+		<div class="entry-meta" title="2011-11-17T16:35:28-05:00">Thursday Nov 17, 2011
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			Provincial power giant Hydro-Québec has a long history of giving back to the community, and of supporting higher education in particular. <br /><br />In 2002, Hydro-Québec established graduate scholarships in order to support especially promising students in the Faculty of Engineering and Computer Science, chosen on the basis of academic merit. Since then, the company has expanded its support across all faculties within Concordia, and has also begun to offer generous undergraduate scholarships as well as funding for two industrial research chairs.<br /><br /><object height="300" width="400"> <param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2Fencs-concordia%2Fsets%2F72157628017996701%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2Fencs-concordia%2Fsets%2F72157628017996701%2F&amp;set_id=72157628017996701&amp;jump_to=" /> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=109615" /> <param name="allowFullScreen" value="true" /><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=109615" allowfullscreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fencs-concordia%2Fsets%2F72157628017996701%2Fshow%2F&page_show_back_url=%2Fphotos%2Fencs-concordia%2Fsets%2F72157628017996701%2F&set_id=72157628017996701&jump_to=" height="300" width="400"></object><br /><br />On November 15, the invaluable generosity of Hydro-Québec was honoured with a special recognition ceremony held at the Sir George Williams campus. On behalf of Advancement and Alumni Relations at Concordia, Robin Drew, Dean of the Faculty of Engineering and Computer Science, welcomed Hydro-Quebec delegates Gaétan Lantagne, Scientific Director of the company's research institute and Michel Blois, donations and sponsorships associate. Also in attendance were many past and present scholarship recipients, who were happy to have the chance to mingle with professors and the Hydro-Quebec representatives.<br /><br />Prior to the official presentation of the scholarship certificates to new recipients, Mr. Lantange delivered an encouraging presentation on Hydro-Québec, which detailed the company's impressive work in the field of sustainability. "We need young people like you to help us meet the challenges of tomorrow," said Mr. Lantagne, expressing a profound gratitude on behalf of his company for the hard work and enthusiasm displayed by these bright young minds.<br /><br />As the evening drew to a close, Graham Carr, Concordia's Dean of Graduate Studies, summed up the overall sentiment best by stating that "it's not just the students who are grateful for these awards: Concordia's researchers, faculty members, and staff also recognize the tremendous importance of the invaluable support offered by Hydro-Québec."<br /><br /> 
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-427">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2011/11/ece-phd-receives-governor-generals-gold-medal.php">ECE PhD receives Governor General's Gold Medal</a></h2>
+		<div class="entry-meta" title="2011-11-17T09:46:31-05:00">Thursday Nov 17, 2011
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			<img alt="Mehdipour.jpg" src="http://newsfeed.encs.concordia.ca/encs_test/Mehdipour.jpg" class="mt-image-right" style="float: right; margin: 0 0 20px 20px;" height="224" width="325" />Graduate student Aidin Mehdipour, from the Department of Electrical and Computer Engineering, will receive the Governor General's Academic Gold Medal at Concordia's convocation ceremonies on November 22. He recently completed his PhD thesis entitled, Advanced Carbon-Fiber Composite Materials for Shielding and Antenna Applications, under the supervision of C.W. Trueman and A.R. Sebak.<br /><br />The Governor General's Academic Gold Medal recognizes Mehdipour's significant research accomplishments. Gold medals are awarded to graduate students in two key areas outlined in the university's Strategic Research Plan: The Person and Society (awarded during spring convocation); and Technology, Industry and the Environment (awarded during fall convocation).<br /><br />Mehdipour's thesis "is one of the most significant and comprehensive research works ever done on electromagnetic characteristics of composite materials, which is very important for avionic and spacecraft industries," says Suong Van Hoa, director of the Concordia Centre for Composites.<br /><br />Mehdipour began his research investigating the electromagnetic properties of carbon composite compared to aluminum as a shield against electromagnetic radiation on modern aircraft. Carbon composite is used instead of aluminum because it is lighter and stronger. His research was part of a joint project between Concordia, �0cole Polytechnique de Montréal and Bell Helicopter, and funded in part by the Natural Sciences and Engineering Research Council of Canada.<br /><br />"After doing this project, I decided to try using composite materials for antenna microwave applications, because I saw there was potential there," says Mehdipour. "It was a very new area, untouched."<br /><br />Antennas made with composite materials can function in climates where metal is unsuitable. "The composite material shows very good corrosion resistance," he says. "Many people call them green antennas. Because of their resistance to corrosion and fantastic mechanical characteristics, it could be used in harsh environments, for military applications or any application outdoors."<br /><br />Mehdipour praises Concordia and his professors for supporting his research. "My supervisors supported me very well," he says. "They spent a lot of time reviewing my work, and whenever I needed some components we didn't have, they purchased them. In microwave research, the components are expensive!"<br /><br />Although Mehdipour has now graduated from Concordia, he continues to work on several projects, and recently submitted a patent application. "I still have many projects that I'm working on in my free time, specifically the patent issue, it's not a short-term project," he says. 
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-426">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2011/11/pugh-shaves-to-save.php">Pugh shaves to save</a></h2>
+		<div class="entry-meta" title="2011-11-15T16:45:56-05:00">Tuesday Nov 15, 2011
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			<div align="center"><img alt="1.jpg" src="http://newsfeed.encs.concordia.ca/encs_test/1.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" height="292" width="440" /><font style="font-size: 0.8em;"><i>Dr. Martin Pugh, Chair of the Department of Mechanical and Industrial Engineering</i></font><br /></div><br />When the <a href="http://wie.ecaconcordia.ca/">Concordia chapter of Women in Engineering</a> first approached Dr. Martin Pugh to see if he would help in their efforts fundraising for women's cancers, he was amenable. The deal was simple: if the student group managed to raise $1,000 in support of research into funding the cure for women's cancers, Dr. Pugh would shave his head. In early November, much to Dr. Pugh's surprise, they met that goal.<br /><br /><div align="center"><img alt="2.jpg" src="http://newsfeed.encs.concordia.ca/encs_test/2.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" height="292" width="440" /><font style="font-size: 0.8em;"><i>Dr. Pugh on stage with members of WIE Concordia</i></font><br /></div><br />Always a good sport, Dr. Pugh honoured his promise and on a dark November night, went off to Reggie's with a courageous heart and generous spirit. An enthusiastic group of students, staff, and faculty members had assembled at the undergraduate student bar to cheer him on. <br /><br /><div align="center"><img alt="3.jpg" src="http://newsfeed.encs.concordia.ca/encs_test/3.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" height="292" width="440" /><font style="font-size: 0.8em;"><i>Dr. Pugh gets a close shave</i><br /></font></div><br />Dr. Pugh took to the stage without a backwards glance and stepped up to the shears, receiving a very close-cropped 'do in a matter of minutes. When it was all over, all were pleased with the aerodynamic results, and more pleased still at the impressive amounts that were raised in support of this important cause.<br /><br /><div align="center"><img alt="4.jpg" src="http://newsfeed.encs.concordia.ca/encs_test/4.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" height="292" width="440" /><font style="font-size: 0.8em;"><i>Dr. Pugh gets used to the new 'do</i></font><br /></div><br />Women in Engineering will be continuing to fundraise throughout the year. If you have not yet made a contribution but wish to do so, there's still time!<br /><br />Simply visit <a href="http://www.endcancer.ca/site/TR/Events/Montreal2012?team_id=111787&pg=team&fr_id=1461">this website</a>. From there, you can choose the student you would like to support:<br /><br /><ul><li><a href="http://www.endcancer.ca/site/TR/Events/Montreal2012?px=3705769&pg=personal&fr_id=1461">Sabrina Ibarra</a>, MIE student</li><li><a href="http://www.endcancer.ca/site/TR/Events/Montreal2012?px=3701501&pg=personal&fr_id=1461&s_locale=fr_CA">Genevieve Chafouleas</a>, CSE student</li><li><a href="http://www.endcancer.ca/site/TR/Events/Montreal2012?px=3701497&pg=personal&fr_id=1461">Jessica Leveille</a>, MIE student</li></ul><div align="right"><i><font style="font-size: 0.8em;">Photos by Marc Bourcier</font></i><br /></div>
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-425">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2011/11/ciadi-celebrates-10th-anniversary-with-alumni-dinner.php">CIADI Celebrates 10th Anniversary</a></h2>
+		<div class="entry-meta" title="2011-11-15T13:03:03-05:00">Tuesday Nov 15, 2011
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			The Concordia Institute of Aerospace Design and Innovation celebrated its tenth birthday at the Omni Hotel on November 11, 2010. Present for the cocktail, speeches, and dinner were past and present CIADI students, as well as professors, university representatives--including Provost David Graham, and industry leaders.<br /><br /><object height="300" width="400"> <param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2Fencs-concordia%2Fsets%2F72157628134708212%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2Fencs-concordia%2Fsets%2F72157628134708212%2F&amp;set_id=72157628134708212&amp;jump_to=" /> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=109615" /> <param name="allowFullScreen" value="true" /><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=109615" allowfullscreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fencs-concordia%2Fsets%2F72157628134708212%2Fshow%2F&page_show_back_url=%2Fphotos%2Fencs-concordia%2Fsets%2F72157628134708212%2F&set_id=72157628134708212&jump_to=" height="300" width="400"></object><br /><br />After the crowd had had the chance to mingle over drinks in the foyer, Nadia Bhuyian, Associate Director of the Institute, shared some words of welcome. She spoke of the excellent partnerships CIADI had forged within Montreal's aerospace industry and mentioned the high quality learning experience CIADI students receive through their hands-on internships. Then Dr. Bhuyian handed the podium over to Bob Fews, who took over the Directorship of CIADI earlier, and spoke of the opportunities and challenges currently faced by CIADI.<br /><br />The evening's guest of honour was CIADI founder Hany Moustapha, who delivered a rousing keynote address and received a standing ovation from all present. Dr. Moustapha related fond memories of his time at the helm of CIADI and also gave an overview of his current projects.<br />After dinner, two CIADI alumni were welcomed to the podium: Ismail Mokabel (who graduated from CIADI in 2004) spoke of his experience as an Account Manager of Pratt &amp; Whitney Canada, Alumnus 2004, and Martine Tawfik (Class of 2006) talked about what it's like to be a Project Engineer for Bombardier Aerospace.<br /><br />Before the night wrapped up, students from the latest crop of the CIADI Global project spoke of their experiences overseas: Alexander Gallo had been posted with the Israel Institute of Technology in Israel; Gavin Kenneally at the University of Pennsylvania in the USA; Francois Paquin at l'Université Libre de Bruxelles in Belgium; Karim Sarhan at MTU Aero Engines in Germany; anda Anthony Toteda with Airbus Military in Spain.<br /><br />The celebrations continued long into the night, successfully honouring the first decade of the Institute's existence and looking ahead to another ten years of excellence and innovation.<br /><br /> 
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-423">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2011/11/fluid-dynamics-image-helps-honour-remembrance-day.php">Fluid dynamics image helps honour Remembrance Day</a></h2>
+		<div class="entry-meta" title="2011-11-09T16:46:06-05:00">Wednesday Nov  9, 2011
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			<a href="http://www.me.concordia.ca/facultyandstaff/full-timefaculty/hoi-dick-ng.php">Hoi Dick "Eddie" Ng</a>, associate professor from the <a href="http://www.me.concordia.ca/index.php">Department of Mechanical and Industrial Engineering</a>, and undergraduate student, Anna Shchetinina, have submitted a visually stunning and technically amazing artistic image for the Gallery of Fluid Motion competition. <i><br /><br /></i><div align="center"><img alt="HDNg-2.jpg" src="http://newsfeed.encs.concordia.ca/encs_test/HDNg-2.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" height="428" width="440" /><font style="font-size: 0.8em;"><i>image by A. Shchetinina &amp; H.D. Ng (Concordia University, Montréal, Canada)</i></font><br /></div><br />Given the timing of this year's competition, the image they chose is especially apropos: although the image actually shows the dynamics of an imploding circular water wave, it looks surprisingly like a Remembrance Day poppy. <br /><br />The annual competition is hosted by the Fluid Dynamics division of the American Physical Society and will be held this year at Baltimore in Nov. 20-22, 2011. Dr. Ng his students have entered the competition for several years running now and often perform well against the 50 or so entries that are submitted from around the globe. <br /><br />You can learn more about how this amazing image was created by visiting the <a href="http://www.aps.org/units/dfd/pressroom/gallery/ng11.cfm">APS website.</a><br /> <div><br /></div>
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-411">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2011/11/cse-doctoral-candidate-honoured-at-international-conference.php">CSE doctoral candidate honoured at international conference</a></h2>
+		<div class="entry-meta" title="2011-11-02T11:43:53-05:00">Wednesday Nov  2, 2011
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:DoNotShowComments/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+</style>
+<![endif]-->
+
+<p class="MsoNoSpacing">Khoa Luu, doctoral student in the Department of Computer
+Science and Software Engineering, currently carrying out his research at Carnegie
+Mellon University, has achieved outstanding recognition for his work at the
+recent International Joint Conference on Biometrics (IJCB 2011) in Washington
+DC, Oct. 10-13. </p>
+
+<p class="MsoNoSpacing">The event is one of the world's most selective
+conferences on the evolving subject of biometrics, with only 10% of papers and
+23% of posters submitted being accepted. Luu not only had two submissions
+accepted to the conference papers, his oral paper was nominated for the
+competition's Best Paper Award, and his poster entitled "Investigating Age
+Invariant Face Recognition Based on Periocular Biometrics" (pictured below),
+won the Best Poster Award for this category. </p>
+
+<img alt="luu-poster.jpg" src="http://newsfeed.encs.concordia.ca/encs_test/luu-poster.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" height="710" width="560" /><br /><br />
+
+<p class="MsoNoSpacing"><b style="mso-bidi-font-weight:normal">Related links:</b></p>
+
+<ul><li><a href="http://www.cse.nd.edu/IJCB_11/">International Joint Conference on Biometrics</a></li><li><a href="http://www.concordia.ca/now/what-we-do/research/20110308/new-technology-to-predict-future-appearance.php">New technology to predict future appearance</a></li><li>
+
+
+
+<a href="http://cjournal.concordia.ca/archives/20100617/imagination_over_knowledge_khoa_luu.php">Imagination Over Knowledge: Khoa Luu</a></li></ul><p class="MsoNoSpacing"></p><div><br /></div>
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+    
+
+    <div id="entry-410">
+	<div class="entry-header">
+		<h2 class="asset-name entry-title"><a href="http://www.encs.concordia.ca/news-and-events/entry.php?a=2011/11/nserc-invests-5-million-in-smart-net-zero-energy-buildings-strategic-network.php">NSERC invests $5 Million in Smart Net-Zero Energy Buildings Strategic Network</a></h2>
+		<div class="entry-meta" title="2011-11-01T16:45:58-05:00">Tuesday Nov  1, 2011
+                </div>
+	</div>
+
+	<div class="entry-content">
+	
+		<div class="entry-body">
+			Suzanne Fortier, President of the <a class="zem_slink" href="http://www.nserc-crsng.gc.ca/" title="Natural Sciences and Engineering Research Council" rel="homepage">Natural Sciences and Engineering Research Council of Canada</a> (NSERC), announced that the Smart Net-Zero Energy Buildings Strategic Network (SNEBSN) will receive $5 million in funding over five years. Housed within Concordia's Faculty of Engineering and Computer Science, this new network will undertake research that will increase the use of net-<a class="zem_slink" href="http://en.wikipedia.org/wiki/Zero-energy_building" title="Zero-energy building" rel="wikipedia">zero energy buildings</a> while developing the most effective methods for achieving zero average annual energy consumption at both the building and neighbourhood levels.<br /><br /><a href="../../administration-and-governance/about-the-dean/index.html">Robin Drew</a>, Dean of the Faculty of Engineering and Computer Science, was especially pleased with the announcement, noting that "we are extremely grateful to NSERC for their generous and continued support of the Network. This is a great tribute for the Network leader, Dr. Andreas Athienitis and we are honored to host this signature area project (energy and environment) in our faculty."<br /><br />NSERC's Strategic Network Grants help accelerate research in support of the federal government's science and technology priorities. The networks funded through these grants provide enhanced training for highly qualified personnel to facilitate the transfer and mobilization of knowledge from research and development to implementation in local Canadian communities. "The research this network undertakes solves real-world problems and boosts the bottom line of its partners in industry," stated Dr. Fortier. "It exemplifies NSERC's goal of connecting and applying the strength of the academic research system to addressing the opportunities and challenges of building prosperity for our country."<br /><br />The Smart Net-Zero Energy Buildings Strategic Network has been created on the solid foundation of the NSERC-<a href="http://www.solarbuildings.ca/">Solar Buildings Research Network</a>, which was based here at Concordia over the past five years, with our own <a href="http://www.bcee.concordia.ca//faculty-and-staff/faculty/bios/AthienitisA.php">Dr. Andreas Athienitis</a> as its Scientific Director. Athienitis will continue on at the helm of the SNEBSN, as he works with his colleagues to conduct research aimed at facilitating the widespread adoption of optimized net-zero energy buildings design and operation concepts in key regions of Canada by 2030. The primary goal of SNEBSN is to investigate the best ways to achieve zero average annual energy consumption at both the building and neighbourhood levels through combinations of passive systems and dynamic building envelope technologies.<br /><br />An official launch of the Network will be held at its Concordia headquarters in the coming weeks.<br /><br />For more on the SNEBSN, visit <a href="http://www.nsercpartnerships.ca/How-Comment/Networks-Reseaux/SNEBSN-BICENN-eng.asp">http://www.nsercpartnerships.ca/How-Comment/Networks-Reseaux/SNEBSN-BICENN-eng.asp 
+
+</a>
+		</div>
+	
+	</div>
+</div>
+<div class="clear">&nbsp;</div>
+
+
+
+<br />
+
+<div class="clearfix">
+    <div style="width:49%; float:left; text-align:left;">
+    
+      <a href="http://www.encs.concordia.ca/news-and-events/news-archive/index.php?a=2011/10/" title="October 2011">&laquo; October 2011 Archive</a>
+    
+    </div>
+
+    <div style="width:49%; float:right; text-align:right;">
+    
+      <a href="http://www.encs.concordia.ca/news-and-events/news-archive/index.php?a=2011/12/" title="December 2011">December 2011 Archive &raquo;</a>
+    
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="MainContent" --><!-- InstanceEndEditable --><br class="hide" />
+
+			</div>
+			<div class="clear">&nbsp;</div>
+		</div>
+		<div class="clear">&nbsp;</div>
+	</div>
+	
+
+
+		
+
+	<!-- MAIN CONTENT AREA - END -->
+
+
+		<div id="announcement">&nbsp;</div>
+<h2 class="hide">Concordia University</h2>
+<div id="footer">
+  <div id="footer_links">
+    <h2 class="hide">Tools &amp; Quicklinks</h2>
+    <ul style="margin-bottom: 0;"><li><a href="http://www.concordia.ca/azindex/">A-Z Index</a></li>
+      <li><a href="http://www.concordia.ca/directory/">Directory</a></li>
+      <li><a href="http://www.concordia.ca/about/campusmaps/">Campus Map</a> </li>
+      <li><a href="http://www.concordia.ca/busschedule.php">Shuttle Bus Schedule</a></li>
+      <li><a href="http://myconcordia.ca">MyConcordia</a></li>
+      <li><a href="https://mail.encs.concordia.ca/horde/imp/">ENCS Webmail</a></li>
+      <li><a href="http://library.concordia.ca">Libraries</a></li>
+      <li><a href="http://encs.concordia.ca/administration-and-governance/jobs/">Jobs</a></li>
+      <li><a href="http://giving.concordia.ca">Giving to Concordia</a></li>
+      <li><a href="http://encs.concordia.ca/resources/help-desk/">Helpdesk</a></li>
+    </ul>
+  </div>
+ 
+ <div class="clear">&nbsp;</div>
+  <div class="contactinfo"> <a href="http://www.concordia.ca"><img src="http://www.encs.concordia.ca/images/common/concordialogo_bottom.gif" alt="Concordia University Logo" /></a>
+    <div id="footer_address" class="vcard">
+      <p style="margin-bottom: 0"><strong> <span class="fn">Concordia University - <strong><span class="fn">Engineering &amp; Computer Science</span></strong></span></strong><br />
+        <span class="adr"><span class="street-address">1455 de Maisonneuve Blvd. W, </span><span class="locality">Montreal</span>, <span class="region">Quebec</span>, <span class="country-name">Canada</span> <span class="postal-code">H3G 1M8</span></span><br />
+        Telephone <span class="tel">(1) 514-848-2424</span> <br />
+        <a href="http://www.encs.concordia.ca/contactus.php" class="url">Contact Us</a> | <a href="http://www.concordia.ca/about/contactus/">University Mailing Address</a> | <a href="http://www.encs.concordia.ca/aboutthissite.php">About This Site</a><br />
+      Copyright &copy; 2011 <span class="org">Concordia University</span> | <a href="http://www.encs.concordia.ca/legalnotice.php">Legal Notice</a></p>
+    </div>
+  </div>
+  <div id="backtotop">
+    <p style="margin-bottom: 0"><a href="http://www.encs.concordia.ca/news-and-events/news-archive/index.php?a=2011/11/#top">Back to Top</a></p>
+  </div>
+  <div class="url">
+    <h2>Page Info</h2>
+    <p><strong>Page Title</strong>: News archive for November 2011 - Concordia University - Montreal, Quebec, Canada</p>
+    <p><strong>Page URL</strong>:http://www.encs.concordia.ca/news-and-events/news-archive/index.phpa=2011/1...1/ </p>
+    <p style="margin-bottom: 0;"><strong>Date Printed</strong>: Tue December 13, 2011</p>
+  </div>
+  <div class="clear">&nbsp;</div>
+</div>
+
+<script src="http://globalmk.concordia.ca/extmembers/scripts/replace_localtools.php" type="text/javascript"></script>
+<script src="http://globalmk.concordia.ca/extmembers/plugins/suggestion/get_suggestion.php" type="text/javascript"></script>
+<script src="http://globalmk.concordia.ca/extmembers/scripts/localtools.php" type="text/javascript"> </script>
+<script type="text/javascript">
+secure_suffix = "";
+domain = "www.encs.concordia.ca";
+siteroot = "/";
+relative_path = "../../";
+data_path = "../../custom/";
+</script>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+
+/* Concordia Global Tracking Account */
+var pageTracker = _gat._getTracker("UA-2729211-1");
+pageTracker._setDomainName(".concordia.ca");
+pageTracker._trackPageview();
+
+/* Sub-domain Tracking Account */
+var rollupTracker = _gat._getTracker("UA-12491794-1");
+rollupTracker._setDomainName("encs.concordia.ca");
+rollupTracker._trackPageview();
+
+} catch(err) {}</script>
+
+
+</div>
+</body>
+<!-- InstanceEnd --></html>
