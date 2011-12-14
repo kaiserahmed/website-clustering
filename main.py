@@ -5,13 +5,14 @@ import src.InvertedIndex as ii
 import src.Tokeniser as tk
 import src.WebIndexer as wi
 import src.VectorSpace as vs
-#import src.SpellingCorrector as sc
+import src.SpellingCorrector as sc
 
 class Usage(Exception):
     def __init__(self, msg):
         self.msg = msg
 
 def main(argv=None):
+    """
     # Sample: Indexing the collection
     index = ii.InvertedIndex()
     indexer = wi.WebIndexer()
@@ -23,7 +24,6 @@ def main(argv=None):
     ii.load("index/fullindex.csv", index)
     indexer = wi.WebIndexer()
     indexer.load()
-    """
     
     # Sample: Generating the vector space
     vSpace = vs.VectorSpace(index, indexer)
