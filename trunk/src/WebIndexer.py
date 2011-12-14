@@ -45,7 +45,8 @@ def allIndex(folder):
     result = []
     for root, dirs, files in os.walk(folder):
         for file in files:
-            if file == "index.html":
+            test = re.findall(".*\.html", file)
+            if test:
                 result.append(root+"/"+file)
     return result
 
