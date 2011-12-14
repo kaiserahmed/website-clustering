@@ -19,7 +19,7 @@ def main(argv=None):
     vSpace.buildVectors()
 
     minK = 2
-    maxK = 10
+    maxK = 15
     n = 2
 
     results = []
